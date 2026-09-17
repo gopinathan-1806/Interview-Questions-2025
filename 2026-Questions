@@ -1,0 +1,27 @@
+### Gspann - 17/Sep/2026
+
+How to integrate API gateway with Lambda 
+Lambda cold start 
+Types of node groups in EKS
+Calico
+CNI
+Reducing the size of docker image
+Multi stage docker file
+I have two different apps, if that want to be placed on API gateway, one app should be public and another one should be authenticated
+Terraform taint and untaint 
+Type of deployment models 
+Type of services in k8s
+Cluster upgrades
+Diff b/w role binding and cluster binding 
+Terraform lifecycle (create before destroy)
+How to enable terraform to communicate with AWS account 
+Terraform drift ???
+Types of API gateway 
+API gateway throttling vs Lambda throttling 
+Throttling vs rate limiting 
+Reranking in LLM
+While creating EKS through TF, what are the pre-requests to be done
+What are the files present under helm chart
+How to create a helm for my application
+Creating custom resource in helm
+While installing argo CD on EKS, what was the type used in YAML file
