@@ -1,7 +1,7 @@
 ================================
 Interview questions year 2026-:
 ===============================
-**Gspann**
+## Gspann
 
 How to integrate API gateway with Lambda 
 Lambda cold start 
@@ -30,3 +30,12 @@ Creating custom resource in helm
 While installing argo CD on EKS, what was the type used in YAML file
 
 ==================================================================================>
+
+## Capgemini - 24/Sep
+
+What kind embedding used for scanned PDFs
+If I have image in my document, what approach should be followed
+LangChain, different type of splitter (eg. text splitter)
+Setting up guardrails in Azure
+Which emedding model should be used for tabular column details present in PDF
+How to create chuck and overlap in Azure AI search
