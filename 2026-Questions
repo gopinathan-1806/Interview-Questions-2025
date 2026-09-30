@@ -55,4 +55,18 @@ Spot instance on Azure
 Azure avalability set
 I have my user's list, any changes on the list should automatically make their permission changes (like role, MFA enable / disable)
 
+==================================================================================>
+## Damacgroup (Dubai) - Azure AI Engineer - 30/Sep
+==================================================================================>
+
+Why you're using LLM for simple detect secreat operation 
+What deployment model you're using for deploying your AI models into prod
+What startergy you're using for your AI models
+I've hosted my web app on AWS / Azure, integrated with WAF. Internal customer request should bypass WAF and all the external request should come through WAF, design it
+DR planning and types
+How Governace is taken care for your agents and models
+Fine turing procedure 
+How EVALS are being performed with our model
+What bench mark is being used to evalulate the metrics output from EVALS
+Monitoring your AI apps ???
 
