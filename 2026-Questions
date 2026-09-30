@@ -70,3 +70,39 @@ How EVALS are being performed with our model
 What bench mark is being used to evalulate the metrics output from EVALS
 Monitoring your AI apps ???
 
+
+==================================================================================>
+## Precision tech corp - Azure AI Engineer - 30/Sep
+==================================================================================>
+
+AI Gateway
+How are you allocating memory to your agents (like not n8n memory which I studied)
+Did your agents can directly communicate with LLM
+What is meant by vLLM, its used for serving traffic to your self hosted LLM models
+Pre request required for self hosting LLM models
+In multi zone setup, 3 mongo DB, spread across 3 zones (stateful state apps), due to node CPU issue node-1 cannot allocate space for mongo-db-1 ? --> No, because mongo-db-1 will be attached PV/PVC with EBS in zone-1, so it cannot schedule its POD to other healthy zones.
+How you're performing EVALS
+If I want to get the token metrics, how to get them
+If I want to connect my model with Slack, what security protocal should be followed
+Package used to check your dependecy in jenkins (like trivy)
+How do you design.secure tool Calling, how does the tool Call happen securely, how do you implement it?
+Where are the tools get executed when the agent calls the tool 
+How do you implement AI Observability 
+Other than OpenTelemetry any tool s worked?
+Langfuse uses, MLFlow
+On prem to GCP migration process step by step approach 
+Have worked with the entire Observability of the application?
+DevSecOps pipeline strategy with tools 
+SAST and DAST
+Have worked with any sandbox environments?
+In production, what exactly is used for instead of sandbox for agents 
+For tool calls what exactly Azure functions call
+Joined in new organisation, start looking and asking the tech leads or manager or  head of engineering. How you start from your end
+Think  brand new , might have to set it up  everything as from scratch? What is your approach
+Know about Opensource sandbox environments
+
+
+
+
+
+
