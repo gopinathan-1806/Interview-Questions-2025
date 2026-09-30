@@ -30,8 +30,8 @@ Creating custom resource in helm
 While installing argo CD on EKS, what was the type used in YAML file
 
 ==================================================================================>
-
 ## Capgemini - 24/Sep
+==================================================================================>
 
 What kind embedding used for scanned PDFs in Azure 
 If I have image in my document, what approach should be followed in azure LangChain, different type of splitter (eg. text splitter) 
@@ -39,3 +39,20 @@ Setting up guardrails in Azure
 Which emedding model should be used for tabular column details present in PDF in azure 
 How to create chuck and overlap in Azure AI search
 Fine tuning LLM models on Azure
+
+==================================================================================>
+## EPAM system - Azure Devops - 30/Sep
+==================================================================================>
+
+Diff b/w Azure Resource group vs Azure subscription
+If I have multiple subscription in place, how to manage them
+Azure site recovery
+Diff b/w App LB vs Front door vs Azure LB
+Headless service
+How to ingegrate Azure LB with VMs, configuration steps
+I have my user's role details on Microsoft AD on onprem, I want to sync it with Entra ID (not migrate), so any changes on AD should be reflect here.
+Spot instance on Azure
+Azure avalability set
+I have my user's list, any changes on the list should automatically make their permission changes (like role, MFA enable / disable)
+
+
