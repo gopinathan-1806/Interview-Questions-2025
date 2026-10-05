@@ -10,3 +10,11 @@ And then attach that ALB with WAF.
 
 <img width="1536" height="1024" alt="AWS ECS Overview Infographic" src="https://github.com/user-attachments/assets/956fa06d-ba8c-4094-ba97-ccf1347f7064" />
 
+## AWS Systems Manager
+
+This service is mainly used to manage 100's of EC2, VMs on another cloud, VMs running in on-premise DC.
+Provides secure, one-click browser-based interactive shells or CLI access to your instances without needing open inbound ports, SSH keys, or bastion hosts. Install the agent on all machines, from you can access it.
+
+<img width="1536" height="1024" alt="AWS Systems Manager Infographic Guide" src="https://github.com/user-attachments/assets/59c4f6ba-7743-44f6-a860-2926809c48de" />
+
+
