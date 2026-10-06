@@ -1,3 +1,6 @@
+
+### AI Agents concepts
+
 ## LangGraph vs CrewAI vs AutoGen
 
 LangGraph - If you want sequential step of execution in graph way, use LangGraph in that case, it provides easy for human approval
@@ -10,4 +13,9 @@ AutoGen - If agent to agent communication is needed, use AutoGen in that case.
 ## Components present on Agent Framework
 
 <img width="1536" height="1024" alt="Frameworks Compared_ LangGraph, CrewAI   AutoGen" src="https://github.com/user-attachments/assets/197445fb-8d46-4a8b-9a7c-aac9b5c110c6" />
+
+## Production Grade AI Agent setup looks like
+
+<img width="1536" height="1024" alt="Production-Grade AI Agent Platform Architecture" src="https://github.com/user-attachments/assets/2b222856-e3a6-4bc1-88e6-86a90d64296e" />
+
 
