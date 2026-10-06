@@ -42,6 +42,11 @@ Structure chunk means it will create the chunk for every paragraph / heading, so
 
 <img width="1536" height="1024" alt="ChatGPT Image 6 Oct 2026, 22_47_52" src="https://github.com/user-attachments/assets/c4a42cc6-61a4-4b5f-a315-f54b67138931" />
 
+## Production Grade Langchain and RAG concepts (very important) Learn about data ingestion on how new data is being loaded
+
+<img width="1536" height="1024" alt="ChatGPT Image 6 Oct 2026, 23_13_53" src="https://github.com/user-attachments/assets/f255e0b5-7350-41cb-96a2-80fe2c1cc4d8" />
+
+
 
 
 
