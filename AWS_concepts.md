@@ -23,3 +23,8 @@ Provides secure, one-click browser-based interactive shells or CLI access to you
 Key managed service by AWS
 
 <img width="1536" height="1024" alt="AWS S3 KMS Encryption Flow" src="https://github.com/user-attachments/assets/c12be650-ac54-4eb3-ac8a-7dd90dc20d49" />
+
+## RDS Overview concepts
+
+<img width="1312" height="1199" alt="AWS RDS DevOps Interview Infographic" src="https://github.com/user-attachments/assets/5db9aa3a-3bab-4f2c-b096-cc61013e8665" />
+
