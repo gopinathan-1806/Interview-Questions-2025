@@ -1,5 +1,5 @@
 
-### AI Agents concepts
+# AI Agents concepts
 
 ## LangGraph vs CrewAI vs AutoGen
 
@@ -17,5 +17,10 @@ AutoGen - If agent to agent communication is needed, use AutoGen in that case.
 ## Production Grade AI Agent setup looks like
 
 <img width="1536" height="1024" alt="Production-Grade AI Agent Platform Architecture" src="https://github.com/user-attachments/assets/2b222856-e3a6-4bc1-88e6-86a90d64296e" />
+
+## Converting the entire flow into micro service on IKS / EKS
+
+<img width="1536" height="1024" alt="Production AI Agent Platform on Kubernetes" src="https://github.com/user-attachments/assets/88743761-2b15-47a1-8c06-b5a61b1f2e32" />
+
 
 
