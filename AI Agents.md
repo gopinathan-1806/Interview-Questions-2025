@@ -22,5 +22,11 @@ AutoGen - If agent to agent communication is needed, use AutoGen in that case.
 
 <img width="1536" height="1024" alt="Production AI Agent Platform on Kubernetes" src="https://github.com/user-attachments/assets/88743761-2b15-47a1-8c06-b5a61b1f2e32" />
 
+## Realtime Banking AI Agent deployed in production 
+https://www.youtube.com/watch?v=ZIAzZtKWmbI
+
+<img width="1041" height="651" alt="image" src="https://github.com/user-attachments/assets/97694030-a54d-4555-9bfa-d0f27acc8f24" />
+
+
 
 
