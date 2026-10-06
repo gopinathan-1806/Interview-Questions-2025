@@ -32,6 +32,17 @@ When user is giving the input request, by mistakenly he added mobile number and 
 
 <img width="1774" height="887" alt="Secure PII Redaction Flow Infographic" src="https://github.com/user-attachments/assets/c07fa43f-5001-449f-8584-58beac7b1f1d" />
 
+## Diff b/w Structure based vs Character based chunking
+
+Character based will split the 500 or 600 words per chunck
+Structure chunk means it will create the chunk for every paragraph / heading, so its easy for getting the proper response.
+
+<img width="3200" height="2634" alt="chunking-character-vs-structure" src="https://github.com/user-attachments/assets/c37b5679-7504-4fed-b5b1-a44cadd56990" />
+
+
+<img width="1536" height="1024" alt="ChatGPT Image 6 Oct 2026, 22_47_52" src="https://github.com/user-attachments/assets/c4a42cc6-61a4-4b5f-a315-f54b67138931" />
+
+
 
 
 
