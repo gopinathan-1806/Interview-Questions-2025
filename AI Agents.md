@@ -27,6 +27,12 @@ https://www.youtube.com/watch?v=ZIAzZtKWmbI
 
 <img width="1041" height="651" alt="image" src="https://github.com/user-attachments/assets/97694030-a54d-4555-9bfa-d0f27acc8f24" />
 
+## How to handle if user is passing some sensitive information on prompt 
+When user is giving the input request, by mistakenly he added mobile number and credit card on that chat, if that value goes to LLM, that's not good, we we'll be validating the user question and mask the sensitive details before sending it to LLM.
+
+<img width="1774" height="887" alt="Secure PII Redaction Flow Infographic" src="https://github.com/user-attachments/assets/c07fa43f-5001-449f-8584-58beac7b1f1d" />
+
+
 
 
 
