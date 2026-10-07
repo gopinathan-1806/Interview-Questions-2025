@@ -51,6 +51,13 @@ Amazon Cognito is a fully managed cloud service that provides secure user authen
 
 <img width="1536" height="1024" alt="AWS Cognito Authentication Flow Infographic" src="https://github.com/user-attachments/assets/238b79b3-2488-41b3-9391-79eed95221be" />
 
+## Layers in Lambda
+
+If you're writing a python code for Lambda function and if you're importing multiple libaries on code, Lambda need those libraries to execute that code, that's why we create layer and upload those packages as zipped file from local to layer's, during code run time those packages will be utilized.
+
+<img width="589" height="252" alt="image" src="https://github.com/user-attachments/assets/ca73845f-3628-4649-855a-82a260e15b84" />
+
+
 
 
 
