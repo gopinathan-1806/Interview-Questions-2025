@@ -45,6 +45,13 @@ Advantage of using API Gateway
 
 <img width="804" height="241" alt="image" src="https://github.com/user-attachments/assets/ceb13c47-6bb0-43b1-b7e8-ae50884b83be" />
 
+## AWS Cognito
+
+Amazon Cognito is a fully managed cloud service that provides secure user authentication, authorization, and management for web and mobile applications
+
+<img width="1536" height="1024" alt="AWS Cognito Authentication Flow Infographic" src="https://github.com/user-attachments/assets/238b79b3-2488-41b3-9391-79eed95221be" />
+
+
 
 
 
