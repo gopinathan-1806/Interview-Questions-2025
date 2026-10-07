@@ -158,3 +158,27 @@ If the old data is getting updated, the status should be marked as 'inactive' an
 | P123 | v2 | 2025-01-01 | inactive |
 | P123 | v3 | 2026-01-01 | **active** |
 ```
+
+## Agent Memory Architecture
+
+Memory Architecture
+
+A production agent might look like:
+
+```yaml
+                 Agent
+                   │
+        ┌──────────┼──────────┐
+        ↓          ↓          ↓
+ Working       Semantic    Episodic
+ Memory        Memory      Memory
+        │          │          │
+        ↓          ↓          ↓
+   Context      Vector DB   Event Store
+```
+
+Important:
+Memory is not simply "put everything into a vector database."
+
+That's a common misconception.
+Different memory types serve different purposes.
