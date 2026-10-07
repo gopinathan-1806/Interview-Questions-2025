@@ -35,4 +35,11 @@ Aurora --> Serverless SQL DB managed by AWS
 
 <img width="1536" height="1024" alt="ChatGPT Image 7 Oct 2026, 11_58_34" src="https://github.com/user-attachments/assets/eda7aa55-b6b8-4159-a2ce-22d3855b5cdf" />
 
+## API Gateway
+
+API Gateway acts as a "front door" for applications to access data, business logic, or functionality from backend services, such as AWS Lambda functions, Amazon EC2 instances, or any publicly accessible HTTP endpoint
+
+<img width="934" height="396" alt="image" src="https://github.com/user-attachments/assets/edc04f7d-d655-478e-889d-5da046afd01c" />
+
+
 
