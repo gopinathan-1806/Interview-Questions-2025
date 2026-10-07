@@ -108,6 +108,43 @@ CI should check for this score, if anyone of the parameter is failing, build sho
 5% hallucination     → FAIL
 ```
 
+## How new data generated every day will be passed into Langchain
+
+```yaml
+                    S3
+             Policy Documents
+                    │
+             Object Created
+                    │
+                    ▼
+              S3 Event
+                    │
+                    ▼
+                  SQS
+             ┌──────┴──────┐
+             │             │
+          Retry          DLQ
+             │             │
+             ▼             ▼
+       Ingestion Worker   Alert
+       Lambda / ECS       Support
+             │
+             ▼
+        Read document
+             │
+             ▼
+        Parse / Extract
+             │
+             ▼
+      Structure Chunking
+             │
+             ▼
+         Embeddings
+             │
+             ▼
+        OpenSearch
+       Vector + BM25
+```
 
 
 
