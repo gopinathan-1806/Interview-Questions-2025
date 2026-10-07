@@ -159,4 +159,6 @@ Know about Opensource sandbox environments
 13. How will you manage AI Governace on your GenAI app
 14. Why did you preferred EKS over ECS
 15. Explain about the RBAC on your agents communication 
+16. How you're managing the tokens
+17. What steps are used to limit the token usage by user's
 
