@@ -140,5 +140,23 @@ Know about Opensource sandbox environments
 8. If you want to deploy an application into IKS, what are the prequest (like multi-zone, quota, RBAC, namespace likethat)
 
 
+==================================================================================>
+## HDFC Life - 07/Oct/2026
+==================================================================================>
 
+1. How do you scale your agents during increase in traffic.
+2. Gaurdrails in AWS bedrock
+3. AWS Opensearch
+4. Prompt validation to be enabled ? --> PII checks, Prompt injection, 
+5. How many Real time GenAI application you have build
+6. Explain me the architecure of GenAI apps
+7. How did you integrated Langsmith with your LLM
+8. Fall back mechanism in LLM
+9. How to reduce the hallusinatation 
+10. How to setup the LLM models on local system
+11. How will you configure the GPU for hosting LLM in local
+12. CICD pipeline explanation 
+13. How will you manage AI Governace on your GenAI app
+14. Why did you preferred EKS over ECS
+15. Explain about the RBAC on your agents communication 
 
