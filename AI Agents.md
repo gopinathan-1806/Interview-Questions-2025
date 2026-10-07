@@ -182,3 +182,10 @@ Memory is not simply "put everything into a vector database."
 
 That's a common misconception.
 Different memory types serve different purposes.
+
+## Agent state / memory during the execution
+
+If we're asking an agent to investigate the PDO failure, it will be running multiple steps, each step will recorded and maintained
+
+<img width="1536" height="1024" alt="ChatGPT Image 7 Oct 2026, 22_51_41" src="https://github.com/user-attachments/assets/a4efc60f-b170-4a1d-90b5-6d7b6faa0805" />
+
