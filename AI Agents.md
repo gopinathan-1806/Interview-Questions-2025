@@ -75,6 +75,8 @@ model: gpt-4.1-mini
 
 ## CICD Flow of GenAI apps
 
+How the prompts are validated during CI Checks
+
 ```yaml
 New Prompt
     ↓
@@ -98,7 +100,13 @@ Golden Dataset
       Deploy        Reject PR
 ```
 
+CI should check for this score, if anyone of the parameter is failing, build should fail
 
+```yaml
+91% satisfaction     → PASS
+95% groundedness     → maybe PASS
+5% hallucination     → FAIL
+```
 
 
 
