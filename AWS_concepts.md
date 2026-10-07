@@ -57,6 +57,13 @@ If you're writing a python code for Lambda function and if you're importing mult
 
 <img width="589" height="252" alt="image" src="https://github.com/user-attachments/assets/ca73845f-3628-4649-855a-82a260e15b84" />
 
+## AWS Bedrock
+
+One of the example on how bedrock is used
+
+<img width="1089" height="612" alt="image" src="https://github.com/user-attachments/assets/06850752-3d59-4ecb-9b07-86cb4d4070a9" />
+
+
 
 
 
