@@ -47,6 +47,28 @@ Structure chunk means it will create the chunk for every paragraph / heading, so
 <img width="1536" height="1024" alt="ChatGPT Image 6 Oct 2026, 23_13_53" src="https://github.com/user-attachments/assets/f255e0b5-7350-41cb-96a2-80fe2c1cc4d8" />
 
 
+## Model Management and Fallback
+
+In Production use cases, don't trust single model, always have a backup model
+
+                   Model Gateway
+                        │
+          ┌─────────────┼─────────────┐
+          ▼             ▼             ▼
+       GPT-4.1      Azure OpenAI    Bedrock
+
+
+
+production:
+  provider: azure-openai
+  model: gpt-4.1
+  temperature: 0.1
+
+fallback:
+  provider: openai
+  model: gpt-4.1-mini
+
+
 
 
 
