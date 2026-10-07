@@ -146,5 +146,15 @@ CI should check for this score, if anyone of the parameter is failing, build sho
        Vector + BM25
 ```
 
+## How to manage old data vs new data in RAG system
+
+If the old data is getting updated, the status should be marked as 'inactive' and new dataset should be 'active', so during retrievel there won't be an issue.
 
 
+```yaml
+| policy_id | version | effective_date | status |
+|---|---:|---|---|
+| P123 | v1 | 2023-01-01 | inactive |
+| P123 | v2 | 2025-01-01 | inactive |
+| P123 | v3 | 2026-01-01 | **active** |
+```
