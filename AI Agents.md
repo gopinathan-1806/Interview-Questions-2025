@@ -75,6 +75,7 @@ model: gpt-4.1-mini
 
 ## CICD Flow of GenAI apps
 
+```yaml
 New Prompt
     ↓
 Golden Dataset
@@ -95,7 +96,7 @@ Golden Dataset
         YES           NO
          ↓             ↓
       Deploy        Reject PR
-
+```
 
 
 
