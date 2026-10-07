@@ -59,14 +59,18 @@ In Production use cases, don't trust single model, always have a backup model
 
 
 
+## Production and Fallback Model Configuration
+ 
+```yaml
 production:
-  provider: azure-openai
-  model: gpt-4.1
-  temperature: 0.1
-
+provider: azure-openai
+model: gpt-4.1
+temperature: 0.1
+ 
 fallback:
-  provider: openai
-  model: gpt-4.1-mini
+provider: openai
+model: gpt-4.1-mini
+```
 
 
 
