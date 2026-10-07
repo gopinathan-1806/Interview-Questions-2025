@@ -41,5 +41,10 @@ API Gateway acts as a "front door" for applications to access data, business log
 
 <img width="934" height="396" alt="image" src="https://github.com/user-attachments/assets/edc04f7d-d655-478e-889d-5da046afd01c" />
 
+Advantage of using API Gateway
+
+<img width="804" height="241" alt="image" src="https://github.com/user-attachments/assets/ceb13c47-6bb0-43b1-b7e8-ae50884b83be" />
+
+
 
 
