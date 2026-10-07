@@ -73,6 +73,30 @@ model: gpt-4.1-mini
 ```
 
 
+## CICD Flow of GenAI apps
+
+New Prompt
+    ↓
+Golden Dataset
+    ↓
+┌──────────────────────────────┐
+│ Evaluation                   │
+│                              │
+│ Answer relevance   ≥ 85%     │
+│ Groundedness       ≥ 95%     │
+│ Hallucination      ≤ 1%      │
+│ PII leakage        = 0       │
+│ Safety violations  = 0       │
+│ Retrieval quality  ≥ target  │
+└──────────────┬───────────────┘
+               ↓
+        ALL gates pass?
+          /          \
+        YES           NO
+         ↓             ↓
+      Deploy        Reject PR
+
+
 
 
 
