@@ -28,3 +28,11 @@ Key managed service by AWS
 
 <img width="1312" height="1199" alt="AWS RDS DevOps Interview Infographic" src="https://github.com/user-attachments/assets/5db9aa3a-3bab-4f2c-b096-cc61013e8665" />
 
+## AWS Document DB
+
+This is Non SQL DB managed by AWS, serverless and autoscaled by AWS. It work on Mongo DB framework.
+Aurora --> Serverless SQL DB managed by AWS
+
+<img width="1536" height="1024" alt="ChatGPT Image 7 Oct 2026, 11_58_34" src="https://github.com/user-attachments/assets/eda7aa55-b6b8-4159-a2ce-22d3855b5cdf" />
+
+
