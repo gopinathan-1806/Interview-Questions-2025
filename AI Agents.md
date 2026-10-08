@@ -193,3 +193,45 @@ If we're asking an agent to investigate the PDO failure, it will be running mult
 
 <img width="1536" height="1024" alt="ChatGPT Image 8 Oct 2026, 12_54_38" src="https://github.com/user-attachments/assets/86dc4804-1238-4baa-a9fb-d9abcae12ac3" />
 
+
+## Validating the answer before sending it to the user's
+
+Mostly for FinTech, if you're creating chatbox for the user's, answer's should be validated by various checks because the data is very sensitive.
+
+```yaml
+
+                    ANSWER
+                      │
+                      ▼
+               Claim Extraction
+                      │
+          ┌───────────┼────────────┐
+          ▼           ▼            ▼
+       Claim 1      Claim 2      Claim 3
+          │           │            │
+          ▼           ▼            ▼
+      Evidence     Evidence     Evidence
+          │           │            │
+          ▼           ▼            ▼
+      Source       Source       Source
+      Quality      Quality      Quality
+          │           │            │
+          └───────────┼────────────┘
+                      ▼
+                 Temporal Check
+                      │
+                      ▼
+                Contradiction Check
+                      │
+                      ▼
+                 Grounding Check
+                      │
+                      ▼
+              Confidence / Decision
+                 /            \
+             PASS              FAIL
+               │                │
+               ▼                ▼
+             User             Rework
+```
+
