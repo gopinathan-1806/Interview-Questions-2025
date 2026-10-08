@@ -162,3 +162,29 @@ Know about Opensource sandbox environments
 16. How you're managing the tokens
 17. What steps are used to limit the token usage by user's
 
+==================================================================================>
+## Nasdaq - 08/Oct/2026
+==================================================================================>
+
+1. Your entire Agentic system is working fine in local, once its deployed into PROD, you're observing the latency issue but the results are accurate, what should be the reason for that?
+2. How will you implement the usgae of token ? --> Rate limiting, Redis for agents (so they will take the cache from redis)
+3. While retrieving the data from RAG, the answer's are wrong, how will you validate that ?
+4. How will you validate your answer's generated from RAG before sending it to client
+5. How to use Vector DB and Neo4j data, how will you formulate that into proper output
+6. State management on agentic AI
+7. Attackers using the Prompt injection to attack your Agent, how will you protect
+8. If one agent is connected to multiple tools, how will you have make the agent to pick the correct for correct operation
+9. Proper chunking mechanism to get the best results ? Type of chunking --> character based and Structure based
+10. How will you perform DeepEvals ?
+11. DeepEvals on local LLM models
+12. Instead of using another LLM model as judge for evals, do we have any other options
+13. On what basics you will pick the model for your agents
+14. Major problem faced on AI work
+15. Managing client senstive details with the agents
+16. Fine turing with LORA / qLORA
+17. In which scenerio you will use Vector DB and Neo4j
+18. Clients are complaning about the inaccurary of your agents, how will you investigate (step by step), what are the things will be checked
+19. DR planning for AI framework
+20. In which scenerio you will choose Langraph vs CrewAI vs AutoGen
+
+
