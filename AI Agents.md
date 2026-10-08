@@ -189,3 +189,7 @@ If we're asking an agent to investigate the PDO failure, it will be running mult
 
 <img width="1536" height="1024" alt="ChatGPT Image 7 Oct 2026, 22_51_41" src="https://github.com/user-attachments/assets/a4efc60f-b170-4a1d-90b5-6d7b6faa0805" />
 
+## Statement management during workflow execution
+
+<img width="1536" height="1024" alt="ChatGPT Image 8 Oct 2026, 12_54_38" src="https://github.com/user-attachments/assets/86dc4804-1238-4baa-a9fb-d9abcae12ac3" />
+
