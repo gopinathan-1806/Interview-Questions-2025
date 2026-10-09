@@ -187,4 +187,31 @@ Know about Opensource sandbox environments
 19. DR planning for AI framework
 20. In which scenerio you will choose Langraph vs CrewAI vs AutoGen
 
+==================================================================================>
+## Nasdaq - 08/Oct/2026 - Staff Devops Engineer
+==================================================================================>
+
+1. If EKS POD want to connect with 3rd party tool, how will you configure it (not normal API)
+2. Kate
+3. Carpenter
+4. SAST / DAST
+5. Node Expoter in prometheus is responsible only for sending Infra level metrics to dashboard, which component is responsible for sending application level metrics to dashboard
+6. Application Insights / Ingestion 
+7. AWS AI
+8. During CI pipeline build, if developers have some function to download the files from internet, how will you figure it out from the checks
+9. Due to heavy traffic, nodes are exhaused, how will you balance it --> Cluster auto sclaing
+10. Observality --> In details
+11. Traces and which tool is used for storing all POD level information 
+12. If jenkins wants to create EC2 on AWS account, what are the permissions jenkins required for that 
+13. 3 type of probes 
+14. 3 typre architecture
+15. How will you create terraform code structure which handles multiple environments and multiple accounts
+16. If have 10 microservice running, how the incoming traffic from user will reach my microservice, tell me the entire flow
+17. What are the investigation steps and commands used for POD failure
+18. Harness - a new CICD tool
+19. If you want to create JAVA based microservice, what tool will be used, what special stages are needed ? --> Maven
+20. Normally HPA and VPA will happen based on POD CPU and Memory, but I want to autoscale my PODs based on incomming traffic, how will you calculate it
+21. CI Guardliks in place for the code during CI validation 
+
+
 
