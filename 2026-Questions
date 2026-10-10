@@ -212,6 +212,7 @@ Know about Opensource sandbox environments
 19. If you want to create JAVA based microservice, what tool will be used, what special stages are needed ? --> Maven
 20. Normally HPA and VPA will happen based on POD CPU and Memory, but I want to autoscale my PODs based on incomming traffic, how will you calculate it
 21. CI Guardliks in place for the code during CI validation 
+22. IRSA --> used for connecting IKS with external apps
 
 
 
