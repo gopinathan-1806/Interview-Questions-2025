@@ -235,3 +235,15 @@ Mostly for FinTech, if you're creating chatbox for the user's, answer's should b
              User             Rework
 ```
 
+
+### Semantic Caching with Redis
+
+Imagine we've built an Amazon customer support chatbot, and hundreds of customers are using it. If many of them ask the same question, each request will be sent to the LLM, and we'll be charged, for example, $0.005 per response. If 100 customers ask the same question, we're unnecessarily paying for 100 identical LLM calls.
+
+To optimize costs and improve response times, we can implement Semantic Caching. Before sending a query to the LLM, the application checks a cache (such as Redis) for a semantically similar question. If a matching answer is found, it is returned directly from the cache without invoking the LLM. If no match exists, the query is sent to the LLM, and the generated response is then stored in Redis for future reuse.
+
+This approach significantly reduces LLM costs, lowers latency, and improves the overall scalability of the chatbot.
+
+
+<img width="1215" height="690" alt="image" src="https://github.com/user-attachments/assets/019402d8-5b2f-4404-ae4c-d9257a24271f" />
+
