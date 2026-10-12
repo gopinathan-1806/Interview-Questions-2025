@@ -228,5 +228,6 @@ Know about Opensource sandbox environments
 8. If WAF is handling the rate limitting, why do you need API Gateway
 9. Front end is on EC2 and rest of the components as microservice running in EKS, how will you connect Frontend running on EC2 with microservice 
 10. CloudFront in detail
+11. Exact difference between ALB and NLB. One can be implemented and other can be used in one place, which is that
 
 
