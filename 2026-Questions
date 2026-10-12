@@ -214,5 +214,19 @@ Know about Opensource sandbox environments
 21. CI Guardliks in place for the code during CI validation 
 22. IRSA --> used for connecting IKS with external apps
 
+==================================================================================>
+## Intuitive.ai - 12/Oct/2026 - 2nd Round
+==================================================================================>
+
+1. If you EKS cluster is completely private, how will you connect with your ECR to pull the image.
+2. If EC2 instance is in private subnet, how will you connect with S3 or SQS --> VPC Endpoints
+3. If your organisation is managing TF module and that is being shared between multiple teams and suppose one team is changing the configuation on the module, how will you make sure that it won't impact your system. --> Lock that particular version file using Git tags and use them in your setup
+4. EKS is completely private, how will you connect with internet
+5. Greenfield in AWS
+6. GLB --> Explain, check if we have GLB in AWS
+7. Someone changed the deployment.yaml configuration in EKS, how will you get to know that ? --> Argo CD will show it as out of sync
+8. If WAF is handling the rate limitting, why do you need API Gateway
+9. Front end is on EC2 and rest of the components as microservice running in EKS, how will you connect Frontend running on EC2 with microservice 
+10. CloudFront in detail
 
 
