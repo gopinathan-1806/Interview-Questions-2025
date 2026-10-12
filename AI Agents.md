@@ -247,3 +247,14 @@ This approach significantly reduces LLM costs, lowers latency, and improves the 
 
 <img width="1215" height="690" alt="image" src="https://github.com/user-attachments/assets/019402d8-5b2f-4404-ae4c-d9257a24271f" />
 
+### AI Agent Architecture 
+
+<img width="1154" height="610" alt="image" src="https://github.com/user-attachments/assets/c809da1a-1169-422b-8b5b-22777b2726ad" />
+
+Internet --> LB --> Agent Orchestator
+
+<img width="967" height="629" alt="image" src="https://github.com/user-attachments/assets/cf2a03a1-3e0a-4fb8-b568-47c4d8ffc353" />
+
+
+
+
