@@ -230,4 +230,35 @@ Know about Opensource sandbox environments
 10. CloudFront in detail
 11. Exact difference between ALB and NLB. One can be implemented and other can be used in one place, which is that
 
+==================================================================================>
+## HDFC Life - 12/Oct/2026 - VP Round
+==================================================================================>
+
+1. How will you're evals your models frequently 
+2. LoRA and QLoRA implementation steps in details
+3. RAGAS, what's the purpose 
+4. AWS OpenSearch 
+5. Gopi explained that Lambda needed to load the info from S3 to Vector DB, but that's not needed, please check it
+6. Deep evals
+
+==================================================================================>
+## Virtusa - 13/Oct/2026
+==================================================================================>
+
+1. Write a program to check the count of each words repeared in the sentence 
+2. Why're using /bin/bash at starting of the shell script 
+3. If you're using EXPOSE 5000 in your Dockerfile, what exactly it does, it opens that port ?
+4. Which AWS service is responsbile for making the configuration changes to your EC2 ? --> AWS System managers
+5. How the pipelines are trigerred when some changes are made in Github ? --> Webhook
+6. Webhook connection between git and jenkins is API or HTTP call ?
+7. What authentication mechanism you're following to access your jenkins pipeline to communicate with EC2 instance
+8. How will you install Argo CD in EKS, does Argo CD will be installed in all your clusters, how you're authenticating EKS with Argo CD
+9. What is meant by error budget and blast redius
+10. Write a dockerfile for JAVA application
+11. How RAG and Langchain
+12. 
+
+
+
+
 
