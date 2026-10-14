@@ -259,6 +259,49 @@ Know about Opensource sandbox environments
 12. 
 
 
+Nasdaq Senior AI Engineering — 8 Scenario-Based Interview Questions
 
+Question 1: Enterprise Agentic AI Architecture
+Nasdaq wants to build an enterprise AI assistant that answers questions using internal research documents and real-time market data. The system must support thousands of concurrent users, enforce strict access controls, provide accurate answers with citations, and remain available during LLM provider outages.
+How would you design the end-to-end architecture? Explain your choice of orchestration framework, RAG strategy, security controls, scalability, and model fallback mechanisms.
+
+Question 2: Cross-Department Data Leakage
+Your AI assistant uses AWS Bedrock, S3, a vector database, and CrewAI. Department A and Department B have separate confidential documents. A user from Department A discovers that they can retrieve information from Department B's documents.
+How would you investigate the root cause and redesign the architecture to prevent unauthorized data access?
+
+Question 3: Redis Cache Security
+Your RAG system correctly filters vector search results based on user permissions. However, Redis returns a previously cached response containing confidential information belonging to another department.
+How would you redesign the caching mechanism to prevent cross-tenant data leakage while maintaining low latency?
+
+Question 4: High Evaluation Scores but Incorrect Answers
+Your Ragas evaluation dashboard reports 96% faithfulness, 94% answer relevancy, and 92% context precision. However, business users report incorrect financial figures and citations that do not support the answers.
+How would you investigate the problem and redesign your evaluation framework using Ragas, DeepEval, golden datasets, and CI/CD quality gates?
+
+Question 5: Infinite Loops in Multi-Agent Systems
+Your CrewAI application contains Research, Analysis, and Reviewer agents. The reviewer repeatedly rejects answers, causing the workflow to loop until it times out, increasing latency and LLM costs.
+How would you investigate and redesign the workflow to prevent infinite loops, enforce retry limits, control costs, and maintain answer quality? Would you consider LangGraph instead of CrewAI?
+
+Question 6: Conflicting and Outdated Documents in RAG
+Your RAG system retrieves three documents containing different reporting thresholds:
+- Document A (2024): $10 million.
+- Document B (2025): $15 million.
+- Document C (2026): $12 million.
+Document C is the latest approved policy, but your ingestion pipeline doesn't track document approval status or superseded versions. The LLM generates an answer using the outdated $10 million figure.
+How would you redesign document ingestion, versioning, metadata filtering, and retrieval to ensure that the system returns authoritative and current information?
+
+Question 7: Hallucinated Financial Information in Production
+Your AI assistant generates an incorrect financial figure even though the correct documents were retrieved and passed to the LLM. The reviewer agent approves the answer, the API returns it successfully, and infrastructure monitoring shows no errors.
+How would you handle the incident, identify the root cause, implement numerical accuracy and grounding checks, and prevent similar failures from reaching production?
+
+Question 8: Reduce AI Latency and Cost by 50%
+Your enterprise AI platform has the following characteristics:
+- 70% of queries are straightforward factual questions.
+- 20% require information from multiple documents.
+- 10% require complex reasoning across multiple sources and external APIs.
+- Nearly every query passes through three agents.
+- Average response latency is eight seconds.
+- LLM costs are higher than expected.
+Business stakeholders want to reduce latency and cost by 50% without materially degrading answer quality.
+How would you redesign the architecture using intelligent query routing, caching, model selection, retrieval optimization, and workload scaling? How would you measure the improvements?
 
 
