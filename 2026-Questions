@@ -337,3 +337,23 @@ Saarthee - AI Cloud Engineer - 15 Oct 2026
 3. Your team is managing 10 sub teams, how will you create pipeline setup for them
 4. If they're executing unit test, how will you manage the enviornments for all 10 different teams ? --> I'll be using shared env for all the teams
 5. 
+
+
+==================================================================================>
+Delloitte - AI Engineer - 15 Oct 2026
+==================================================================================>
+
+1. Given a time series dataset with irregular intervals, write Python code using pandas and scikit-learn to preprocess the data for an LSTM model. Include steps for resampling, handling missing values, and preparing input sequences for training.
+2. During a code review, you notice repetitive boilerplate code across multiple modules. The team is under pressure to deliver, but you believe refactoring is needed. How would you approach this situation and facilitate consensus?
+3. A client’s LLM deployment faces prompt drift and inconsistent outputs after integrating a new vector store backend. As the expert, what steps would you take to systematically restore prompt consistency and ensure robust token-level control?
+4. Your LLM deployment is experiencing a spike in irrelevant responses after a recent prompt template update. How would you systematically diagnose if the root cause lies in vector store indexing, token-level control, or prompt formulation, and what steps would you take to resolve it?
+5. You’re integrating a GenAI-based document classification system for a financial firm. Midway, data privacy concerns are raised about sensitive information being processed. How would you address these concerns while ensuring model accuracy and regulatory compliance? 6)You’re leading an AI/ML project for dynamic pricing in e-commerce. The model is overfitting and customer complaints about unfair prices are rising. How would you address both the technical and ethical aspects in this scenario?
+6. A SaaS client needs to deploy separate environments (dev, test, prod) in Azure with shared services (e.g., AD, VPN) but strict data and access isolation. Describe your approach to architecting these environments, ensuring both security and efficient resource management.
+7. Describe how you would monitor and handle failures in a production environment involving custom agentic services orchestrated via A2A integration. What strategies and tools would you use for detection, alerting, and automated recovery?
+8. You’re managing a Python ETL pipeline that occasionally fails due to intermittent network outages when fetching external data. Explain how you would design the pipeline to maximize reliability and ensure data integrity in such scenarios.
+9. You’re leading a critical project when a key stakeholder requests a major scope change late in the development cycle. How would you assess the impact, communicate with your team, and decide on the best course of action?
+10. Circuit breakers purpose.
+11. GDPR
+12. Azure service used to manage Dev, stage and PROD --> Similar like AWS originzation 
+
+===============
