@@ -327,3 +327,13 @@ Nasdaq - 2nd Round - 15 Oct 2026
 15. In case of any critical failure in your agentic AI system, how will you investigate the issue.
 16. If your Claude code is giving suggestions to edit 15 files, what you will do
 17. When you will think that this Claude code procedure is not good and you will start a fresh prompt 
+
+==================================================================================>
+Saarthee - AI Cloud Engineer - 15 Oct 2026
+==================================================================================>
+
+1. I want to provide the source link while replaying to the user query in AI chatbox, how to do that
+2. Write a python program to count the number of repeated words
+3. Your team is managing 10 sub teams, how will you create pipeline setup for them
+4. If they're executing unit test, how will you manage the enviornments for all 10 different teams ? --> I'll be using shared env for all the teams
+5. 
