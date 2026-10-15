@@ -258,8 +258,9 @@ Know about Opensource sandbox environments
 11. How RAG and Langchain
 12. 
 
-
-Nasdaq Senior AI Engineering — 8 Scenario-Based Interview Questions
+==================================================================================>
+Senior AI Engineering — 8 Scenario-Based Interview Questions
+==================================================================================>
 
 Question 1: Enterprise Agentic AI Architecture
 Nasdaq wants to build an enterprise AI assistant that answers questions using internal research documents and real-time market data. The system must support thousands of concurrent users, enforce strict access controls, provide accurate answers with citations, and remain available during LLM provider outages.
@@ -305,3 +306,22 @@ Business stakeholders want to reduce latency and cost by 50% without materially 
 How would you redesign the architecture using intelligent query routing, caching, model selection, retrieval optimization, and workload scaling? How would you measure the improvements?
 
 
+==================================================================================>
+Nasdaq - 2nd Round - 15 Oct 2026
+==================================================================================>
+
+1. Indexing in FAISS
+2. Explain about the retriveal model in depth
+3. I have a big document, 1st page contains one set of instruction, 8th page contains the different set of instruction of problem, if user is asking for the question, what will happen in RAG
+4. What metadata will be used while indexing
+5. Index pattern
+6. How to restrict Department A user's accessing docs of Dept 8
+7. How the session memory is handled in Langgraph
+8. How the schemantic serach works
+9. Explain about the rerank mechanism
+10. Explain me the process of user's question is converted into vector and answers are generated through RAG
+11. How will you make sure that your agent answer is correct 
+12. Apart from validation, are you handling anything like spell check and other things before starting the chucking.
+13. I told that my chucking is 500, he asked how you came to conclusion on that number
+14. Seqential vs Hierarchy
+15. In case of any critical failure in your agentic AI system, how will you investigate the issue.
