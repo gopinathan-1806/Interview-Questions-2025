@@ -79,6 +79,19 @@ Create a NAT gateway in public gateway, update the route table, so the POD will 
 
 <img width="1672" height="941" alt="EKS 3" src="https://github.com/user-attachments/assets/fd39d378-0077-484d-ab75-c7614cfcf877" />
 
+## SAST, DAST and SCA
+
+We've to implement SAST (Sonarqube) to check our code quality, any bugs, SCA (Trivy) for dependency issues check and DAST (OWASP ZAP) for attaching from UI and checks the API quality and everything.
+
+SAST — SonarQube: examines source code without running the application. It can find insecure code patterns, hard-coded secrets, bugs, and maintainability issues.
+
+SCA — Trivy (example): examines dependency manifests and lockfiles, and can scan built container images for known vulnerabilities in direct and transitive libraries or OS packages. Other SCA options include Snyk, Mend, and OWASP Dependency-Check.
+
+DAST — OWASP ZAP: tests a running web application in a reachable test or staging environment. It can find exposed endpoints, some authentication or access-control problems, and runtime web vulnerabilities. An authenticated scan needs test credentials.
+
+<img width="1672" height="941" alt="SAST" src="https://github.com/user-attachments/assets/e3af0ab4-0037-4e2b-9147-dfc93d8304b4" />
+
+
 
 
 
