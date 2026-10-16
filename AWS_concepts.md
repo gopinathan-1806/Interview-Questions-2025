@@ -63,7 +63,21 @@ One of the example on how bedrock is used
 
 <img width="1089" height="612" alt="image" src="https://github.com/user-attachments/assets/06850752-3d59-4ecb-9b07-86cb4d4070a9" />
 
+## How EKS PODs are communicating with S3
 
+We need a secure connectivity between EKS to S3, hence we're using VPC endpoints.
+
+<img width="1672" height="941" alt="EKS" src="https://github.com/user-attachments/assets/1cfb8b50-e2bf-4c03-b669-102783137098" />
+
+## Why can't we use NAT Gateway for the above scenerio ???
+
+<img width="1672" height="941" alt="EKS 2" src="https://github.com/user-attachments/assets/273de12f-d7e0-4687-8ed0-6b76aea834f4" />
+
+## How PODs running in private subnet will communicate with External APIs 
+
+Create a NAT gateway in public gateway, update the route table, so the POD will send the traffic to NAT --> IG --> External API
+
+<img width="1672" height="941" alt="EKS 3" src="https://github.com/user-attachments/assets/fd39d378-0077-484d-ab75-c7614cfcf877" />
 
 
 
