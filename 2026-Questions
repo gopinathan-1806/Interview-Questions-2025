@@ -336,7 +336,7 @@ Saarthee - AI Cloud Engineer - 15 Oct 2026
 2. Write a python program to count the number of repeated words
 3. Your team is managing 10 sub teams, how will you create pipeline setup for them
 4. If they're executing unit test, how will you manage the enviornments for all 10 different teams ? --> I'll be using shared env for all the teams
-5. 
+5. Circuit breakers
 
 
 ==================================================================================>
