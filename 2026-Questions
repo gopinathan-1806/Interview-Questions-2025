@@ -366,3 +366,4 @@ SONY - Platform AI Engineer - 19 Oct 2026
 4. TF plan vs apply
 5. Chuncking mechanism 
 6. NCDC and Precision mechanism in RAG
+7. Diff between out of Sync vs Degraded in argo cd
