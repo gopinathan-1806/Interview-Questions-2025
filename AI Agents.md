@@ -255,6 +255,64 @@ Internet --> LB --> Agent Orchestator
 
 <img width="967" height="629" alt="image" src="https://github.com/user-attachments/assets/cf2a03a1-3e0a-4fb8-b568-47c4d8ffc353" />
 
+## AI Gateway
+
+An AI Gateway is a centralized entry point between your applications and AI models that manages security, routing, rate limiting, usage, and observability for LLM requests.
+Think of it as an API Gateway specifically designed for AI workloads.
+
+For example, suppose you build an AI-powered invoice processing application. Your application uses:
+- GPT models through Azure OpenAI for invoice extraction.
+- Claude through AWS Bedrock for complex reasoning.
+- Llama hosted on your infrastructure for sensitive data.
+- An embedding model for RAG.
+  
+Instead of integrating every application directly with every model provider, you route requests through an AI Gateway.
+
+             Users / Clients
+                    |
+                    v
+        +------------------------+
+        |   React.js Frontend    |
+        +------------------------+
+                    |
+                    v
+        +------------------------+
+        |   Backend Application  |
+        |   FastAPI / Node.js    |
+        +------------------------+
+                    |
+                    v
+        +--------------------------------+
+        |          AI GATEWAY            |
+        |--------------------------------|
+        |  1. Authentication             |
+        |  2. Authorization              |
+        |  3. Rate Limiting              |
+        |  4. Token & Cost Tracking      |
+        |  5. Model Routing              |
+        |  6. PII / Data Protection      |
+        |  7. Logging & Observability     |
+        |  8. Retry / Failover           |
+        +--------------------------------+
+                    |
+          +---------+---------+
+          |         |         |
+          v         v         v
+      Azure       AWS       Self-hosted
+      OpenAI     Bedrock      Llama
+          |         |         |
+          +---------+---------+
+                    |
+                    v
+               AI Response
 
 
+<img width="1536" height="1024" alt="End-to-End new AI Platform Architecture" src="https://github.com/user-attachments/assets/feb32cca-1b3a-4ac0-9cf2-7560c192c9d9" />
+
+
+### Popular AI Gateway solutions
+
+1. Lite LLM Proxy
+2. CloudFare AI Gateway
+3. Kong AI Gateway
 
