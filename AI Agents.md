@@ -316,3 +316,17 @@ Instead of integrating every application directly with every model provider, you
 2. CloudFare AI Gateway
 3. Kong AI Gateway
 
+## Recall@K, Precision@K, MRR, and NDCG@K
+
+These four metrics are extremely important for RAG evaluation
+
+<img width="1536" height="1024" alt="RAG Retrieval Metrics Evaluation Infographic" src="https://github.com/user-attachments/assets/c3cb6fb9-0936-45e4-ba1d-ac51646fd9ca" />
+
+| Metric | Purpose | Formula | Example | Interpretation |
+|---|---|---|---|---|
+| **Recall@K** | Measures how many relevant documents are retrieved from all relevant documents available. | Relevant documents in top K ÷ Total relevant documents | 4 relevant documents exist. Your retriever finds 3 in the top 5. Recall@5 = 3/4 = **75%** | Higher recall means fewer relevant documents are missed. |
+| **Precision@K** | Measures how many retrieved documents are actually relevant. | Relevant documents in top K ÷ K | You retrieve 5 documents, of which 4 are relevant. Precision@5 = 4/5 = **80%** | Higher precision means less irrelevant information enters the LLM context. |
+| **MRR** (Mean Reciprocal Rank) | Measures how highly the first relevant document appears in the results. | Average of 1 ÷ Rank of first relevant result across queries | The first relevant document appears at rank 2. Reciprocal rank = 1/2 = **0.50** | Higher MRR means users tend to find the first relevant result sooner. |
+| **NDCG@K** (Normalized Discounted Cumulative Gain) | Measures ranking quality, considering both document relevance and position. | DCG@K ÷ Ideal DCG@K | Relevant documents have scores 3, 2, and 1. NDCG compares their actual ranking against the ideal ranking. | Higher NDCG means more relevant documents tend to appear near the top. |
+
+
