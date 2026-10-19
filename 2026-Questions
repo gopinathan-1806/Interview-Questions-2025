@@ -356,4 +356,13 @@ Delloitte - AI Engineer - 15 Oct 2026
 11. GDPR
 12. Azure service used to manage Dev, stage and PROD --> Similar like AWS originzation 
 
-===============
+==================================================================================>
+SONY - Platform AI Engineer - 19 Oct 2026
+==================================================================================>
+
+1. When you're raising PR, how automatically Jenkins is running, what are the configurations needs to be done in Jenkins and Git
+2. If someone made the replicas from 2 to 3 on clutser, what argo CD will do
+3. If I want my Argo CD to replace the above replica back to 2, based on the source code what you will do
+4. TF plan vs apply
+5. Chuncking mechanism 
+6. NCDC and Precision mechanism in RAG
