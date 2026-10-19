@@ -332,3 +332,8 @@ These four metrics are extremely important for RAG evaluation
 ## Faithfulness in RAG
 
 Faithfulness in RAG means checking whether the LLM's answer is supported by the information retrieved from the knowledge base, rather than making up facts.
+
+## PROD setup RAG system
+
+<img width="1536" height="1024" alt="Production-Grade RAG Architecture Infographic" src="https://github.com/user-attachments/assets/f6abf479-4fda-4349-8e1d-b9a0eefdceb9" />
+
