@@ -367,3 +367,20 @@ SONY - Platform AI Engineer - 19 Oct 2026
 5. Chuncking mechanism 
 6. NCDC and Precision mechanism in RAG
 7. Diff between out of Sync vs Degraded in argo cd
+
+
+==================================================================================>
+SONY - Platform AI Engineer - 19 Oct 2026
+==================================================================================>
+
+1. How will you certify your agents for placing it in market place.
+2. Diff b/w termination vs circuit breakers
+3. How to get detect drift in prod for AI Agents
+4. Disadvantage of using LLM as judge
+5. While performing Evals, what are the parameters will be used for checking the metrics
+6. What is meant by planning in agentic AI
+7. Do you anything about the framework used for validating your agents
+8. How will you make sure that the answer's provided by agents are close to groud truth
+9. How will you find out the issues happening in agents during their execution
+10. Does token utilisation is important and how they will be captured
+11. Running deepevals is sufficient enough for the validation ?
