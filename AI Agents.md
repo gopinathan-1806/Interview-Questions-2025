@@ -329,4 +329,6 @@ These four metrics are extremely important for RAG evaluation
 | **MRR** (Mean Reciprocal Rank) | Measures how highly the first relevant document appears in the results. | Average of 1 ÷ Rank of first relevant result across queries | The first relevant document appears at rank 2. Reciprocal rank = 1/2 = **0.50** | Higher MRR means users tend to find the first relevant result sooner. |
 | **NDCG@K** (Normalized Discounted Cumulative Gain) | Measures ranking quality, considering both document relevance and position. | DCG@K ÷ Ideal DCG@K | Relevant documents have scores 3, 2, and 1. NDCG compares their actual ranking against the ideal ranking. | Higher NDCG means more relevant documents tend to appear near the top. |
 
+## Faithfulness in RAG
 
+Faithfulness in RAG means checking whether the LLM's answer is supported by the information retrieved from the knowledge base, rather than making up facts.
