@@ -91,7 +91,44 @@ DAST — OWASP ZAP: tests a running web application in a reachable test or stagi
 
 <img width="1672" height="941" alt="SAST" src="https://github.com/user-attachments/assets/e3af0ab4-0037-4e2b-9147-dfc93d8304b4" />
 
+## Split DNS
 
+Split DNS is a DNS configuration that returns different IP addresses for the same domain name depending on whether the request comes from an internal or external network.
+Let's understand it using your AWS/Azure application architecture.
+
+1. What is Split DNS?
+2. 
+Suppose your application is hosted at:
+app.example.com
+You want:
+- External customers: Access the application through WAF.
+- Internal customers: Access the application directly through a private load balancer, bypassing WAF.
+Instead of creating different application URLs, you can use Split DNS to resolve the same hostname differently.
+
+Architecture
+
+
+                   Application
+                app.example.com
+                       |
+             +---------+---------+
+             |                   |
+             v                   v
+      External Customer    Internal Customer
+             |                   |
+             v                   v
+        Public DNS          Private DNS
+             |                   |
+             v                   v
+       Public WAF           Internal ALB
+             |                   |
+             v                   v
+       Public ALB           Private Backend
+             |                   |
+             +---------+---------+
+                       |
+                       v
+                  Application
 
 
 
