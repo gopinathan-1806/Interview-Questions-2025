@@ -335,5 +335,45 @@ Faithfulness in RAG means checking whether the LLM's answer is supported by the 
 
 ## PROD setup RAG system
 
+Embeddings are stored in Pinecone and BM25.
+Companies typically maintain two searchable indexes for the same document chunks: a vector index in Pinecone and a keyword index in Elasticsearch/OpenSearch or another BM25-capable engine.
+
+             AWS Documentation / PDFs
+                       |
+                       v
+                Ingestion Pipeline
+                       |
+                       v
+              Parse, Clean, Chunk
+                       |
+                       v
+            Canonical Document Chunks
+                       |
+              +--------+--------+
+              |                 |
+              v                 v
+       Generate Embedding    Extract Text
+              |                 |
+              v                 v
+         PINECONE          BM25 INDEX
+       (Vector Index)    (OpenSearch / ES)
+              |                 |
+              v                 v
+       Semantic Search     Keyword Search
+              |                 |
+              +--------+--------+
+                       |
+                       v
+                Result Fusion (RRF)
+                       |
+                       v
+                    Reranker
+                       |
+                       v
+                       LLM
+                       |
+                       v
+                  Final Answer
+
 <img width="1536" height="1024" alt="Production-Grade RAG Architecture Infographic" src="https://github.com/user-attachments/assets/f6abf479-4fda-4349-8e1d-b9a0eefdceb9" />
 
