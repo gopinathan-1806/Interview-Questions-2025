@@ -385,3 +385,27 @@ Synechron -  AI Engineer - 19 Oct 2026
 10. Does token utilisation is important and how they will be captured
 11. Running deepevals is sufficient enough for the validation ?
 12. Suppose the new runbook is successfully embedded in Pinecone, but the old runbook remains in cache, if user asks the question, the request will fetch it from redis, how to aviod that.
+
+==================================================================================>
+Nasdaq - 3rd Round - 20 Oct 2026
+==================================================================================>
+
+1. How will you store / manage repeated asked questions in redis, if user is asking the same question in different format, how come redis will understand or manage it.
+2. Your RAG app is running fine, after 6 months user's are complaing about the answer accuracy is going down, how you will track it
+3. I want to create Nasdaq.com chatbot for checking all info, but I have only $10,000 budget for my LLM, but not sure about the customer's traffic, it may be 1 million or 30 million but I need to focus on my budget, what you will do
+4. Metrics will be calculated during Deepevals
+5. RAG app is running fine, evals with golden dataset results are accurate but answer accuracy is dropping, what will be the problem
+6. Metrics monitored on Langsmith
+7. When you're creating a new GenAI app for nasdaq what are the things will be comsidered in terms of AI background
+8. Can we store the metadata info on Pinecone 
+
+
+
+
+
+
+
+
+
+
+
