@@ -377,3 +377,15 @@ Companies typically maintain two searchable indexes for the same document chunks
 
 <img width="1536" height="1024" alt="Production-Grade RAG Architecture Infographic" src="https://github.com/user-attachments/assets/f6abf479-4fda-4349-8e1d-b9a0eefdceb9" />
 
+## Redis cache
+
+New data is uploaded into Pinecone and Elastic search, but still redis is running with old cache, if user is asking the question it will point to the old cache, how to fix it ?
+
+Answer:- 
+Delete the old Redis entry when the runbook is updated.
+When the next user asks the question, fetch the latest data from Pinecone/Elasticsearch.
+Store the new answer in Redis for future requests.
+
+
+<img width="749" height="331" alt="image" src="https://github.com/user-attachments/assets/afc1a9b7-3bc3-461f-845c-db981e8a8ced" />
+
