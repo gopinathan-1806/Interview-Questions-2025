@@ -384,4 +384,4 @@ SONY - Platform AI Engineer - 19 Oct 2026
 9. How will you find out the issues happening in agents during their execution
 10. Does token utilisation is important and how they will be captured
 11. Running deepevals is sufficient enough for the validation ?
-12. Suppose the new runbook is successfully embedded in Pinecone, but the old runbook remains in Elasticsearch.
+12. Suppose the new runbook is successfully embedded in Pinecone, but the old runbook remains in cache, if user asks the question, the request will fetch it from redis, how to aviod that.
