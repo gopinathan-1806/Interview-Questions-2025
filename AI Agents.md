@@ -399,6 +399,11 @@ Agent2Agent (A2A) protocol is an open protocol designed to let AI agents built u
 
 <img width="758" height="717" alt="image" src="https://github.com/user-attachments/assets/616e49a9-85a5-47e5-81f0-4df314b4ea01" />
 
+## A2A Authentication 
+
+<img width="1536" height="1024" alt="Google A2A Travel Authentication Flow" src="https://github.com/user-attachments/assets/9262bbcc-7658-46eb-b17c-687100800d9c" />
+
+
 
 
 
