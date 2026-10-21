@@ -391,7 +391,7 @@ Store the new answer in Redis for future requests.
 
 ## Agent to Agent Communication
 
-Agent-to-Agent (A2A) communication is a way for one AI agent to communicate with another AI agent to delegate work, exchange information, and complete a task together.
+Agent2Agent (A2A) protocol is an open protocol designed to let AI agents built using different frameworks or technologies discover each other, exchange tasks, and communicate their status and results.
 
 <img width="1536" height="1024" alt="Google A2A Travel Planning Infographic" src="https://github.com/user-attachments/assets/e48e791b-9b12-47f4-b7e5-ecfa9ca33a40" />
 
