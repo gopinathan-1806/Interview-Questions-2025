@@ -400,6 +400,18 @@ Nasdaq - 3rd Round - 20 Oct 2026
 8. Can we store the metadata info on Pinecone 
 
 
+==================================================================================>
+AHEAD - Devops Engineer - 1st Round - 21 Oct 2026
+==================================================================================>
+
+1. If I create any Infra in primary region, automatically same infra should be created in my secondary region ? --> use alias 
+   A. How will you pass two regions in same file
+   B. How does authentication will work here
+2. During Blue Green deployment, how will you switch the traffic, what file will be modified
+3. Design an application which will be hosted on EKS which should have high avalability, fault tolerance and sclability which need to manage 1M customers per day
+4. How you're calculating POD cost metrics ?  --> Cast AI
+5. Terraform drift, I explained about LLM --> He told that if you're using TF enterprise, it comes with drift mechanism, which will get notified.
+6. 
 
 
 
