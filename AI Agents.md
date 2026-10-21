@@ -389,3 +389,17 @@ Store the new answer in Redis for future requests.
 
 <img width="749" height="331" alt="image" src="https://github.com/user-attachments/assets/afc1a9b7-3bc3-461f-845c-db981e8a8ced" />
 
+## Agent to Agent Communication
+
+Agent-to-Agent (A2A) communication is a way for one AI agent to communicate with another AI agent to delegate work, exchange information, and complete a task together.
+
+<img width="1536" height="1024" alt="Google A2A Travel Planning Infographic" src="https://github.com/user-attachments/assets/e48e791b-9b12-47f4-b7e5-ecfa9ca33a40" />
+
+6 important components on A2A
+
+<img width="758" height="717" alt="image" src="https://github.com/user-attachments/assets/616e49a9-85a5-47e5-81f0-4df314b4ea01" />
+
+
+
+
+
