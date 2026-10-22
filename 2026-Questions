@@ -411,12 +411,20 @@ AHEAD - Devops Engineer - 1st Round - 21 Oct 2026
 3. Design an application which will be hosted on EKS which should have high avalability, fault tolerance and sclability which need to manage 1M customers per day
 4. How you're calculating POD cost metrics ?  --> Cast AI
 5. Terraform drift, I explained about LLM --> He told that if you're using TF enterprise, it comes with drift mechanism, which will get notified.
-6. 
 
 
+==================================================================================>
+Techjays - Lead Devops Engineer - 1st Round - 22 Oct 2026 - CBE
+==================================================================================>
 
-
-
+1. How you're validating your agents
+2. K8s architecture
+3. Diff b/w readiness vs liveness probe
+4. Diff b/w resource and limits
+5. 3 tier architecture
+6. How auto scaling works in K8s and AWS, what parameters needed for enabling auto-scaling
+7. If two person's are making changes in TF, how do you restrict that
+8.
 
 
 
