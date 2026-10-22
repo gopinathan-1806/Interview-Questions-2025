@@ -448,4 +448,29 @@ Elastic - AI Engineer - 1st Round - 22 Oct 2026
 5. How you created MCP between agents and Slack / mail
 6. A2A protocal 
 7. How will you stop the agents running in infinite loop
-8. 
+
+==================================================================================>
+Synechron (Morgan Stanley) - AI Platform Engineer - 1st Round - 22 Oct 2026 
+==================================================================================>
+
+1. Does Sonarqube can be used to test the business logic
+2. Diff b/w recall vs precision
+3. Which one is critical recall or precision
+4. How come you picked the Sonet model 
+5. How come the fine turned models are cheap
+6. K8s architecture
+7. Gen AI application architecture
+8. RAG mechanism 
+9. Advantage and drawbacks with fine turing models
+10. How did you performed the fine turing of models
+11. Ingress
+12. How to configure ALB with Agents running on EKS
+13. Diff b/w groundness, faithfulness and halucinitation 
+14. What metrics are used for RAGAS and Deepevals
+15. If Sales data for 2026 is 100 rs but your RAG is providing the output as 99 rs, what's the faithfulness score
+16. If Sales data for 2026 is 100 rs, no data for 2025 but your RAG is providing the output as 99 rs for 2025, what's the faithfulness score
+17. For given sum of 2 numbers, write a python program to optimize their product
+18. Rabbit is walking 1km in 1min, next min, its walkking 0.5km and next min walking 0.25km, write a python code to calculate the total time taken to cover 2km
+19. Running LLM operation on 1 POD but it contains multiple department details, so we can create 3 PODs for 3 department LLM calls, how to segerate the input and send it to indivigual PODs
+20. 
+
