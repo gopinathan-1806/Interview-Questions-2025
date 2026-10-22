@@ -426,7 +426,7 @@ Techjays - Lead Devops Engineer - 1st Round - 22 Oct 2026 - CBE
 7. If two person's are making changes in TF, how do you restrict that
 
 ==================================================================================>
-Techjays - Lead Devops Engineer - 1st Round - 22 Oct 2026 - CBE
+Techjays -  Devops Engineer - 1st Round - 22 Oct 2026 
 ==================================================================================>
 
 1. Shared modules in TF
@@ -437,4 +437,15 @@ Techjays - Lead Devops Engineer - 1st Round - 22 Oct 2026 - CBE
 6. Purpose of X-ray
 
 
+==================================================================================>
+Elastic - AI Engineer - 1st Round - 22 Oct 2026 
+==================================================================================>
 
+1. How security is being maintained in Agentic AI framework
+2. How authorization happens in agentic AI, like Gopi is asking to check something in DB, how will agents check the permission part
+3. Langraph follows which mathematical mechanism - Graph
+4. Which reranking tool you have used 
+5. How you created MCP between agents and Slack / mail
+6. A2A protocal 
+7. How will you stop the agents running in infinite loop
+8. 
