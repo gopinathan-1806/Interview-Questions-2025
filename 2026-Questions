@@ -472,5 +472,19 @@ Synechron (Morgan Stanley) - AI Platform Engineer - 1st Round - 22 Oct 2026
 17. For given sum of 2 numbers, write a python program to optimize their product
 18. Rabbit is walking 1km in 1min, next min, its walkking 0.5km and next min walking 0.25km, write a python code to calculate the total time taken to cover 2km
 19. Running LLM operation on 1 POD but it contains multiple department details, so we can create 3 PODs for 3 department LLM calls, how to segerate the input and send it to indivigual PODs
-20. 
+
+==================================================================================>
+Straive - AI Architect - 1st Round - 23 Oct 2026 
+==================================================================================>
+
+1. User submitted the response on UI, its timed out and user is submitting once again, how do you validate that data duplication 
+2. Cosmos DB billing is increasing and latency reduced, what you will do
+3. Your GenAI app is tested successfully in stage, but after promoting into PROD, you're facing an issue, how to fix it
+4. What kind of validation you're passing before sending the output to user's
+5. How will you integrate AI gateway, what are the components are required for that 
+6. Diff b/w API gateway vs AI gateway
+7. During RAG retrival, your recall@K and precision@K results are good but the answer is not upto the mark.
+8. How will you make sure that DB or Infra are properly secuirty enabled after connecting with MCP
+9. In case of any issues with RAG, how will you monitor the process
+10. 
 
