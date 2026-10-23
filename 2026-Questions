@@ -510,4 +510,4 @@ AHEAD - AI Platform Engineer - 2nd Round - 23 Oct 2026
 14. Landing zone in azure
 15. Greenfield and brownfield deployments
 16. Is it possible to lock the states files without using dynamo DB
-17. 
+17. Object locking in S3
