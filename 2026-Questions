@@ -426,7 +426,7 @@ Techjays - Lead Devops Engineer - 1st Round - 22 Oct 2026 - CBE
 7. If two person's are making changes in TF, how do you restrict that
 
 ==================================================================================>
-Techjays -  Devops Engineer - 1st Round - 22 Oct 2026 
+Broadrige -  Devops Engineer - 1st Round - 22 Oct 2026 
 ==================================================================================>
 
 1. Shared modules in TF
@@ -490,3 +490,24 @@ Straive - AI Architect - 1st Round - 23 Oct 2026
 11. Your primary model is showing 429 error, how will you make that your secondary model is capable of answering the questions correctly 
 12. If user's on UI, editing and uploading the documents frequently, how will you manage and store them in vector DB, also how will you retrive them since it will have the multiple versions
 
+==================================================================================>
+AHEAD - AI Platform Engineer - 2nd Round - 23 Oct 2026
+==================================================================================>
+
+1. TF Import block
+2. Does dynamo DB is required now for locking your state. If not, what's the exact step
+3. I have created 100 EC2, 100 RDS, how to import them into my terraform config file, other than using TF Import
+4. List of configs present in your backend.tf file (s3, dynamo DB)
+5. If you want to provide an access to EKS cluster to new user, how ? Auth user
+6. Diff between AWS IAM vs Azure IAM
+7. POD identity vs IRSA
+8. If my Lambda wants to connects to RDS using secure connection, what are the options available 
+9. Type of VPC service endpoints
+10. Diff b/w two VPC service endpoints 
+11. Diff b/w Service accounts in EKS vs IAM role in AWS
+12. Where to attach my IAM role in EC2
+13. What is meant by Profiles in EC2
+14. Landing zone in azure
+15. Greenfield and brownfield deployments
+16. Is it possible to lock the states files without using dynamo DB
+17. 
