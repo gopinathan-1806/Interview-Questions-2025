@@ -486,5 +486,7 @@ Straive - AI Architect - 1st Round - 23 Oct 2026
 7. During RAG retrival, your recall@K and precision@K results are good but the answer is not upto the mark.
 8. How will you make sure that DB or Infra are properly secuirty enabled after connecting with MCP
 9. In case of any issues with RAG, how will you monitor the process
-10. 
+10. 40 User's are feeding the multiple informations from UI and your latency is very low, how will you manage and take care of your GenAI application
+11. Your primary model is showing 429 error, how will you make that your secondary model is capable of answering the questions correctly 
+12. If user's on UI, editing and uploading the documents frequently, how will you manage and store them in vector DB, also how will you retrive them since it will have the multiple versions
 
