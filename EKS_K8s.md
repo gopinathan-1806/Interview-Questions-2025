@@ -333,3 +333,92 @@ Store the secrets in Secret Manager, create an IAM role for that secret manager,
 
 <img width="1774" height="887" alt="EKS Pod Identity Secrets Flow" src="https://github.com/user-attachments/assets/5c444169-3941-4e99-b7a7-71d4823464e4" />
 
+## Purpose of Karpenter:
+
+Karpenter automatically provisions and removes Kubernetes worker nodes based on application demand, ensuring pods get the resources they need without manual node management.
+
+### How it helps
+
+1. Automatically adds nodes when pods are pending due to insufficient CPU, memory, or other resources.
+2. Automatically removes unused nodes to reduce cloud costs.
+3. Chooses the best EC2 instance type dynamically instead of being restricted to predefined node groups.
+4. Improves resource utilization through better bin-packing of workloads.
+5. Scales faster than traditional Cluster Autoscaler in many scenarios.
+
+### Example
+
+Suppose your EKS cluster has 3 nodes and a deployment suddenly requires 20 more CPUs:
+
+* New pods become Pending.
+* Karpenter detects the unschedulable pods.
+* It launches the most appropriate EC2 instance(s).
+* Pods get scheduled automatically.
+* When traffic drops, unused nodes are terminated.
+
+### Using Karpenter
+
+Install Karpenter through helm
+
+Create EC2NodeClass
+
+```
+apiVersion: karpenter.k8s.aws/v1
+kind: EC2NodeClass
+metadata:
+  name: default
+spec:
+  amiFamily: AL2023
+
+  role: KarpenterNodeRole
+
+  subnetSelectorTerms:
+    - tags:
+        karpenter.sh/discovery: my-cluster
+
+  securityGroupSelectorTerms:
+    - tags:
+        karpenter.sh/discovery: my-cluster
+```
+
+Create NodePool
+
+```
+apiVersion: karpenter.sh/v1
+kind: NodePool
+metadata:
+  name: default
+spec:
+  template:
+    spec:
+      nodeClassRef:
+        name: default
+
+      requirements:
+      - key: kubernetes.io/arch
+        operator: In
+        values:
+        - amd64
+
+      - key: node.kubernetes.io/instance-type
+        operator: In
+        values:
+        - t3.large
+        - t3.xlarge
+        - m6i.large
+        - m6i.xlarge
+```
+
+<img width="739" height="451" alt="image" src="https://github.com/user-attachments/assets/61246253-f711-4bdc-87b2-ac820765b8aa" />
+
+
+## Cluster Autoscaler (CA)
+
+Scales Out: When pods are in a Pending state due to insufficient resources, Cluster Autoscaler increases the size of a node group (ASG/Managed Node Group).
+Scales In: When nodes are underutilized and their workloads can be moved elsewhere, it removes those nodes to save costs.
+
+## Cluster AutoScaler vs Karpenter
+
+<img width="747" height="392" alt="image" src="https://github.com/user-attachments/assets/a5734508-ba6a-4d05-a97c-1f9eef46c546" />
+
+
+
