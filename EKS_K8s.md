@@ -420,5 +420,10 @@ Scales In: When nodes are underutilized and their workloads can be moved elsewhe
 
 <img width="747" height="392" alt="image" src="https://github.com/user-attachments/assets/a5734508-ba6a-4d05-a97c-1f9eef46c546" />
 
+## Service endpoint should be added with Pod identity for S3 access
+
+<img width="1536" height="1024" alt="EKS Pod Identity to Private S3 Upload" src="https://github.com/user-attachments/assets/df6e5ab0-4c64-4e3e-946e-17cfa624522f" />
+
+
 
 
