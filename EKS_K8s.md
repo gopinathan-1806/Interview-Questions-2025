@@ -424,6 +424,176 @@ Scales In: When nodes are underutilized and their workloads can be moved elsewhe
 
 <img width="1536" height="1024" alt="EKS Pod Identity to Private S3 Upload" src="https://github.com/user-attachments/assets/df6e5ab0-4c64-4e3e-946e-17cfa624522f" />
 
+## Anti Affinity vs Topology spread
+
+<img width="708" height="354" alt="image" src="https://github.com/user-attachments/assets/a38d94c1-af76-4bb3-a5af-e342613628fc" />
+
+# Kubernetes: Taints & Tolerations vs Node Affinity
+
+## 1. Simple Example
+
+Imagine an EKS cluster with two types of nodes:
+
+- **GPU Node:** Reserved for AI workloads.
+- **General Node:** Runs normal web applications.
+
+Our goal is:
+- AI pods should run on GPU nodes.
+- Normal web pods should not run on GPU nodes.
+
+We use **taints and tolerations** and **node affinity** to achieve this.
+
+---
+
+## 2. Taints and Tolerations — The Security Guard
+
+Think of a taint as a security guard at the entrance of a node.
+
+### Step 1: Add a taint to the GPU node
+
+```bash
+kubectl taint nodes node-a workload=ai:NoSchedule
+```
+
+This tells Kubernetes:
+
+> Do not schedule pods on this node unless they tolerate this taint.
+
+### Step 2: Allow the AI pod to tolerate the taint
+
+```yaml
+tolerations:
+  - key: workload
+    operator: Equal
+    value: ai
+    effect: NoSchedule
+```
+
+### What happens?
+
+- AI pod: Allowed past the security guard.
+- Web pod: Blocked because it has no matching toleration.
+
+**Important:** Toleration allows the AI pod to use the GPU node, but does not guarantee that it will run there.
+
+---
+
+## 3. Node Affinity — The Address Requirement
+
+Now suppose the AI pod must run only on GPU nodes.
+
+### Step 1: Label the GPU node
+
+```bash
+kubectl label node node-a workload=ai
+```
+
+### Step 2: Configure node affinity on the AI pod
+
+```yaml
+affinity:
+  nodeAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: workload
+              operator: In
+              values:
+                - ai
+```
+
+This tells Kubernetes:
+
+> I must run on a node whose `workload` label is `ai`.
+
+If no matching node is available, the pod stays Pending.
+
+---
+
+## 4. The Main Difference
+
+| Feature | Taints and Tolerations | Node Affinity |
+|---|---|---|
+| Simple meaning | Security guard | Address requirement |
+| Main purpose | Keep unwanted pods away | Select the right nodes |
+| Configured on | Taint on node; toleration on pod | Node labels and pod scheduling rules |
+| Guarantees placement? | No | Required affinity restricts eligible nodes |
+| Typical use | Reserve GPU nodes | Direct AI pods to GPU nodes |
+
+---
+
+## 5. Why Use Both Together?
+
+For production EKS clusters, use both when you want GPU nodes dedicated to AI workloads.
+
+**GPU node configuration:**
+
+```bash
+kubectl label node node-a workload=ai
+kubectl taint nodes node-a workload=ai:NoSchedule
+```
+
+**AI pod configuration:**
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ai-inference
+spec:
+  tolerations:
+    - key: workload
+      operator: Equal
+      value: ai
+      effect: NoSchedule
+
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: workload
+                operator: In
+                values:
+                  - ai
+
+  containers:
+    - name: inference
+      image: nginx:1.27
+```
+
+This example uses NGINX as a placeholder container to demonstrate scheduling. A real AI inference workload would use its model-serving image and request the required GPU resources.
+
+### Why does this work?
+
+1. **Toleration:** Allows the AI pod past the GPU node's taint.
+2. **Node affinity:** Restricts the AI pod to nodes labeled `workload=ai`.
+3. **Result:** The AI pod can run on an eligible GPU node, provided resources and other scheduling requirements are satisfied.
+
+If you use only node affinity, ordinary pods are not automatically blocked from GPU nodes. If you use only a toleration, the AI pod may still run on a general-purpose node.
+
+---
+
+## 6. Remember This for Interviews
+
+- **Taint:** Keep out unless tolerated.
+- **Toleration:** I am allowed in.
+- **Node affinity:** I want or require this type of node.
+
+### One-line interview answer
+
+"Taints and tolerations prevent unwanted workloads from being scheduled on dedicated nodes, while node affinity directs workloads to nodes that match specific labels. In production, I use both to reserve GPU nodes for AI workloads."
+
+### Bonus: Taint effects
+
+- `NoSchedule`: New pods without a matching toleration cannot schedule on the node.
+- `PreferNoSchedule`: Kubernetes tries to avoid scheduling those pods there.
+- `NoExecute`: Pods without a matching toleration cannot remain on the node and may be evicted.
+
+**Final takeaway:** Toleration permits placement; required node affinity selects the eligible node type.
+
+
+
 
 
 
