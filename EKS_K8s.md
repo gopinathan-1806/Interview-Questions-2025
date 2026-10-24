@@ -326,3 +326,10 @@ Step to create POD Identity
 https://www.youtube.com/watch?v=j0gICtfAwJI
 
 <img width="1346" height="812" alt="image" src="https://github.com/user-attachments/assets/6682f97f-71a5-40a0-bb03-d148044fa74d" />
+
+## Secrets used in EKS
+
+Store the secrets in Secret Manager, create an IAM role for that secret manager, attach that role to Service account and add that service account to POD.
+
+<img width="1774" height="887" alt="EKS Pod Identity Secrets Flow" src="https://github.com/user-attachments/assets/5c444169-3941-4e99-b7a7-71d4823464e4" />
+
