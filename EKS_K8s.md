@@ -327,7 +327,7 @@ https://www.youtube.com/watch?v=j0gICtfAwJI
 
 <img width="1346" height="812" alt="image" src="https://github.com/user-attachments/assets/6682f97f-71a5-40a0-bb03-d148044fa74d" />
 
-## Secrets used in EKS
+## Secrets used in EKS (You need to add Interface gateway for the secured connectivity)
 
 Store the secrets in Secret Manager, create an IAM role for that secret manager, attach that role to Service account and add that service account to POD.
 
