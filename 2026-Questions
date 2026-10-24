@@ -511,6 +511,7 @@ AHEAD - AI Platform Engineer - 2nd Round - 23 Oct 2026
 15. Greenfield and brownfield deployments
 16. Is it possible to lock the states files without using dynamo DB
 17. Object locking in S3
+18. OIDC in EKS
 
 ==================================================================================>
 Techjays - AI Platform Engineer - 2nd Round - 23 Oct 2026
@@ -518,3 +519,4 @@ Techjays - AI Platform Engineer - 2nd Round - 23 Oct 2026
 
 1. Agentic AI architecture
 2. For SaaS application, customers are in 3 types (silver, gold and diamond), based on their plans we need to limit the tokens, how will you manage it ?
+3. If my upstream systems are sending 1000 files every minutes to S3, and they're processed using Glue, how will you make sure that the files won't be duplicated during processing.
