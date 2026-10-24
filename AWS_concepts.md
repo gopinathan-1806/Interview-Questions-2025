@@ -131,5 +131,17 @@ Architecture
                   Application
 
 
+## IRSA on EKS
+
+This picture shows the complete IRSA setup from scratch, in the order you would configure it. Follow the six numbered steps along the bottom.
+The easiest way to remember the order is:
+1. Enable OIDC for your EKS cluster.
+2. Create an IAM role with a trust policy that identifies the allowed ServiceAccount.
+3. Attach a permissions policy that allows access to the required S3 bucket.
+4. Create a Kubernetes ServiceAccount and annotate it with the IAM role ARN.
+5. Configure your pod or Deployment to use that ServiceAccount.
+6. Verify the identity using aws sts get-caller-identity, then test S3 access.
+
+<img width="1536" height="1024" alt="IRSA on EKS_ Complete Setup Flow" src="https://github.com/user-attachments/assets/b4fc5c29-7433-43cf-b40c-8cb136f98009" />
 
 
