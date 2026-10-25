@@ -615,7 +615,8 @@ The simplest way to schedule a pod on a node.
 
 An enhanced version of NodeSelector.
 
-`spec:
+```yaml
+spec:
   affinity:
     nodeAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
@@ -624,7 +625,8 @@ An enhanced version of NodeSelector.
           - key: disktype
             operator: In
             values:
-            - ssd`
+            - ssd
+```
 
 
 
