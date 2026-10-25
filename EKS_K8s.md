@@ -592,6 +592,17 @@ If you use only node affinity, ordinary pods are not automatically blocked from 
 
 **Final takeaway:** Toleration permits placement; required node affinity selects the eligible node type.
 
+## Pod Disruption Budget (PDB)
+
+A Pod Disruption Budget (PDB) ensures that a minimum number of pods remain available during voluntary disruptions such as:
+
+Node draining
+Cluster upgrades
+Rolling updates
+Maintenance activities
+
+It helps prevent all replicas of an application from being taken down at the same time.
+
 
 
 
