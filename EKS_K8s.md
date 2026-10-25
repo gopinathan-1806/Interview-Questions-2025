@@ -629,6 +629,13 @@ spec:
 ```
 
 
+## Connection drain
+
+Connection Draining is the process of allowing existing client connections to complete gracefully before a server, pod, or instance is removed from service.
+Instead of abruptly terminating active requests, new traffic is stopped while ongoing requests are given time to finish.
+
+<img width="691" height="540" alt="image" src="https://github.com/user-attachments/assets/80decee6-21ea-4638-97ff-d39bc5dcb8c3" />
+
 
 
 
