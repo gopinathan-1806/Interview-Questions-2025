@@ -603,6 +603,31 @@ Maintenance activities
 
 It helps prevent all replicas of an application from being taken down at the same time.
 
+## NodeSelector vs Node Affinity
+
+### 1. NodeSelector
+
+The simplest way to schedule a pod on a node.
+
+`kubectl label node worker-1 disktype=ssd`
+
+### 2. Node Affinity
+
+An enhanced version of NodeSelector.
+
+`spec:
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+        - matchExpressions:
+          - key: disktype
+            operator: In
+            values:
+            - ssd`
+
+
+
 
 
 
