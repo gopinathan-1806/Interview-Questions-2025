@@ -460,6 +460,9 @@ guardrails:
     requests_per_minute: 100
 ```
 
+## Multi agent setup in AWS
+
+<img width="1536" height="1024" alt="AWS Multi-Agent RAG Architecture" src="https://github.com/user-attachments/assets/2b30ebba-96b5-4928-addc-640231b38c32" />
 
 
 
