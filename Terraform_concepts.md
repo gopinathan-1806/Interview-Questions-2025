@@ -29,3 +29,8 @@ Terraform Taint marks a resource for recreation. During the next terraform apply
 In newer Terraform versions, terraform taint is deprecated and replaced by the -replace option.
 
 ``` terraform apply -replace="aws_instance.web" ```
+
+## Terraform Lifecycle
+
+<img width="771" height="303" alt="image" src="https://github.com/user-attachments/assets/422cd241-54c1-4e46-8a91-4097dc189368" />
+
