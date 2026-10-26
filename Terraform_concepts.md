@@ -21,3 +21,11 @@ And then run TF plan config generator
 Terraform creates state file for that resource
 
 https://www.youtube.com/watch?v=TJlbXUKgBHg
+
+## What is Terraform Taint?
+
+Terraform Taint marks a resource for recreation. During the next terraform apply, Terraform destroys the existing resource and creates a new one, even if there are no configuration changes. 
+
+In newer Terraform versions, terraform taint is deprecated and replaced by the -replace option.
+
+``` terraform apply -replace="aws_instance.web" ```
