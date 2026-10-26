@@ -540,3 +540,21 @@ August AI - Senior AI Engineer - 1st Round - 26 Oct 2026
 3. Does your main agent is taking all the decision like what to do ?
 4. In your healthcare project, how will you increase your answer accuracy, since its critical data is being delieved to client.
 
+==================================================================================>
+SONY (Saaratha Consulting) - AI Cloud Engineer - 1st Round - 26 Oct 2026
+==================================================================================>
+
+1. If you're running your project on Langraph, how to migrate that setup into AutoGen framework
+2. How will you create a MCP server between sub agent to JIRA
+3. Diff between agent's own tool connecting to JIRA and connecting through MCP to JIRA
+4. If you have redis in place for your RAG system, does redis wil be hit everytime during the question
+5. Create the architecture for RAG system in AWS
+6. How will you convert your agents in microservice and run
+7. If agents are running as POD, if that agent need to communicate with RDS, how do you configure that 
+8. What type of MCP method used ? --> Fast python or ?
+9. RAG system, what are the services will be used in AWS
+10. What are the components available in AutoGen
+11. If sensitive cache is presnt in redis, how does your framework will take the answer
+12. How metadata helps in RAG framework
+13. 
+
