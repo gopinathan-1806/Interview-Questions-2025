@@ -548,6 +548,7 @@ SONY (Saaratha Consulting) - AI Cloud Engineer - 1st Round - 26 Oct 2026
 2. How will you create a MCP server between sub agent to JIRA
 3. Diff between agent's own tool connecting to JIRA and connecting through MCP to JIRA
 4. If you have redis in place for your RAG system, does redis wil be hit everytime during the question
+4A. If RAG is hitted everytime, if the same question is asked in different tone, will be answered by redis ?
 5. Create the architecture for RAG system in AWS
 6. How will you convert your agents in microservice and run
 7. If agents are running as POD, if that agent need to communicate with RDS, how do you configure that 
