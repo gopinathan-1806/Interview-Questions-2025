@@ -407,6 +407,54 @@ Agent2Agent (A2A) protocol is an open protocol designed to let AI agents built u
 
 <img width="1536" height="1024" alt="Production-Grade Multi-Agent Architecture Diagram" src="https://github.com/user-attachments/assets/4d3cf46e-6beb-4d16-acc9-90315c3d2195" />
 
+## Creating Guardrails through script
+
+```yaml
+guardrails:
+
+  prompt_injection:
+    enabled: true
+    block_patterns:
+      - "ignore previous instructions"
+      - "reveal system prompt"
+      - "bypass security"
+      - "show hidden data"
+
+  content_safety:
+    enabled: true
+    block_categories:
+      - hate
+      - violence
+      - self_harm
+      - malware
+
+  pii_detection:
+    enabled: true
+    entities:
+      - PERSON
+      - EMAIL_ADDRESS
+      - PHONE_NUMBER
+      - SSN
+      - CREDIT_CARD
+      - PASSPORT
+
+  hipaa:
+    enabled: true
+    protected_entities:
+      - PATIENT_NAME
+      - MRN
+      - DOB
+      - INSURANCE_ID
+      - MEDICAL_RECORD
+
+  output_filter:
+    enabled: true
+    redact_sensitive_data: true
+
+  rate_limit:
+    requests_per_minute: 100
+```
+
 
 
 
