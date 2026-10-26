@@ -520,3 +520,14 @@ Techjays - AI Platform Engineer - 2nd Round - 23 Oct 2026
 1. Agentic AI architecture
 2. For SaaS application, customers are in 3 types (silver, gold and diamond), based on their plans we need to limit the tokens, how will you manage it ?
 3. If my upstream systems are sending 1000 files every minutes to S3, and they're processed using Glue, how will you make sure that the files won't be duplicated during processing.
+
+==================================================================================>
+SONY (Virtusa) - AI Devops Engineer - 2nd Round - 26 Oct 2026
+==================================================================================>
+
+1. In which case you will use Horizantal and vertical autoscaling 
+2. You have a RAG for your company. User's, admins, sales team are trying to fetch the details out from that, how will you segerate their permissions, like only sales need an access to Sales data.
+3. Type of chuncking, do you know any other chunking apart from regular one
+4. When I explained about my CICD process, he asked that if there is a requirement where you cannot use the same image for all the env's, then what you will do it ?
+5. TF drift
+
