@@ -247,6 +247,11 @@ This approach significantly reduces LLM costs, lowers latency, and improves the 
 
 <img width="1215" height="690" alt="image" src="https://github.com/user-attachments/assets/019402d8-5b2f-4404-ae4c-d9257a24271f" />
 
+### Vector is cross checked in redis not a string
+
+<img width="1536" height="1024" alt="Healthcare RAG Flow with Redis Cache" src="https://github.com/user-attachments/assets/98aa9fbc-b73e-48ea-963f-333c9e988b49" />
+
+
 ### AI Agent Architecture 
 
 <img width="1154" height="610" alt="image" src="https://github.com/user-attachments/assets/c809da1a-1169-422b-8b5b-22777b2726ad" />
