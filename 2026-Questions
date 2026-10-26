@@ -531,3 +531,12 @@ SONY (Virtusa) - AI Devops Engineer - 2nd Round - 26 Oct 2026
 4. When I explained about my CICD process, he asked that if there is a requirement where you cannot use the same image for all the env's, then what you will do it ?
 5. TF drift
 
+==================================================================================>
+August AI - Senior AI Engineer - 1st Round - 26 Oct 2026
+==================================================================================>
+
+1. For hospital project, how are you evaluvating your healthcare response before sending it to user's
+2. How to create guardrails through script (just tell me the steps)
+3. Does your main agent is taking all the decision like what to do ?
+4. In your healthcare project, how will you increase your answer accuracy, since its critical data is being delieved to client.
+
