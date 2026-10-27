@@ -151,6 +151,14 @@ AWS Config helps you detect resources that violate these requirements and track 
 
 <img width="698" height="490" alt="image" src="https://github.com/user-attachments/assets/1edbf7c9-e9e5-412e-a62f-97bd9ffcbd31" />
 
+## Site to Site VPN, Direct Connect and Private Link
+
+Site to Site -> Provides connection between On prem to AWS through internet
+Direct Connect --> Provides connection between On prem to AWS through dedicated network
+
+<img width="719" height="555" alt="image" src="https://github.com/user-attachments/assets/7aaa97f5-be15-41e7-acfd-aeaec3ae2dd4" />
+
+
 
 
 
