@@ -131,6 +131,23 @@ Architecture
                   Application
 
 
+## AWS Config
+
+AWS Config is an AWS service that continuously records supported resource configurations and evaluates them against rules to determine whether resources comply with your organization's policies.
+
+Think of it as a configuration compliance and change-tracking service for AWS infrastructure.
+
+For example, your company requires that:
+- Every S3 bucket must block public access.
+- Every EBS volume must be encrypted.
+- All production EC2 instances must have specific tags.
+- Security groups must not expose SSH (port 22) to the entire internet.
+AWS Config helps you detect resources that violate these requirements and track configuration changes over time.
+
+<img width="698" height="490" alt="image" src="https://github.com/user-attachments/assets/1edbf7c9-e9e5-412e-a62f-97bd9ffcbd31" />
+
+
+
 
 
 
