@@ -559,3 +559,24 @@ SONY (Saaratha Consulting) - AI Cloud Engineer - 1st Round - 26 Oct 2026
 12. How metadata helps in RAG framework
 13. 
 
+==================================================================================>
+HP Singapore - RedHat OCP Admin Engineer - 1st Round - 27 Oct 2026
+==================================================================================>
+
+1. User's are getting 503 error, how will you investigate that failure.
+2. How will you perform regular upgrades and patching on Openshift cluster
+3. If someone is changing the config on cluster, how will you find it out
+4. RWO (ReadWriteOnce) & RWX (ReadOnlyMany)
+5. During Node drain, one POD from PDB is not allowing to drain the node, what you will do
+6. POD is stuck and node is in not ready state, what could you be the possible failure
+7. How will you plan the storage for stateful applications
+8. Tell the flow from user's PC to POD
+9. How will you use Ansible for upgrating with Openshift cluster
+10. How will you make your base image is compatabile 
+11. POD in namespace-A is unable to communicate with POD in namespace-B, what could be the reason --> network policies
+12. If you're managing 5 clients on single cluster, how will you make sure to take securtity in place
+13. How will you create Openshift cluster
+14. You need to make sure that PODs should be created as nonroot user, how will you make sure that and how will you validate in future --> check on CI
+15. How to create POD with nonroot user
+16. Pod security standards, and image signing/approval policies
+17. Conduct regular vulnerability assessments (infrastructure and image-level) and remediate findings within SLA
