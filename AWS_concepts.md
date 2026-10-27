@@ -135,6 +135,8 @@ Architecture
 
 AWS Config is an AWS service that continuously records supported resource configurations and evaluates them against rules to determine whether resources comply with your organization's policies.
 
+https://www.youtube.com/watch?v=ig1KxKgN8ls
+
 Think of it as a configuration compliance and change-tracking service for AWS infrastructure.
 
 For example, your company requires that:
