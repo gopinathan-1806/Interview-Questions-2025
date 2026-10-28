@@ -17,6 +17,9 @@ Provides secure, one-click browser-based interactive shells or CLI access to you
 
 <img width="1536" height="1024" alt="AWS Systems Manager Infographic Guide" src="https://github.com/user-attachments/assets/59c4f6ba-7743-44f6-a860-2926809c48de" />
 
+<img width="1536" height="1024" alt="AWS Systems Manager Overview Infographic" src="https://github.com/user-attachments/assets/7d035a75-663c-402d-bc87-31c8e63f1d5d" />
+
+
 ## Web app on Private subnet
 If web app is placed on EC2 of private subnet, if you want to access the customers, then ALB/NLB is the best option.
 
