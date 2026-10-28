@@ -180,6 +180,9 @@ https://youtu.be/RdZnO_11A9g?si=IEBgzwkp5RY6n53_
 
 <img width="1536" height="1024" alt="AWS Backup Architecture Infographic" src="https://github.com/user-attachments/assets/e862dd9b-a0ae-4d97-8770-f5acc2f34d11" />
 
+## S3 cross region replication
+
+<img width="1536" height="1024" alt="AWS S3 Cross-Region Replication Guide" src="https://github.com/user-attachments/assets/6630b893-498f-41cb-9a8d-5024f46544c8" />
 
 
 
