@@ -176,7 +176,9 @@ https://youtu.be/RdZnO_11A9g?si=IEBgzwkp5RY6n53_
 
 <img width="1536" height="1024" alt="Cross-Account IAM Role Access Flow" src="https://github.com/user-attachments/assets/13ad215e-d529-4455-bc8d-f726b4b9623f" />
 
+## AWS backup
 
+<img width="1536" height="1024" alt="AWS Backup Architecture Infographic" src="https://github.com/user-attachments/assets/e862dd9b-a0ae-4d97-8770-f5acc2f34d11" />
 
 
 
