@@ -158,6 +158,24 @@ Direct Connect --> Provides connection between On prem to AWS through dedicated 
 
 <img width="719" height="555" alt="image" src="https://github.com/user-attachments/assets/7aaa97f5-be15-41e7-acfd-aeaec3ae2dd4" />
 
+## AWS Shield, Guard duty, Inspector and WAF
+
+<img width="1536" height="1024" alt="AWS Security Services Integration Guide" src="https://github.com/user-attachments/assets/9e893683-ebc9-4a15-be2a-451dce8ad139" />
+
+## Diff b/w Gateway vs Interface endpoints
+
+<img width="1536" height="1024" alt="AWS Endpoints_ Gateway vs Interface" src="https://github.com/user-attachments/assets/6f1eeab9-353d-4005-a02e-f23e73e4b36a" />
+
+## Cross account IAM role
+
+User from account-A will access the bucket on Account-B on pic
+
+Below pic might be confusing, see the below youtube video for better understanding
+
+https://youtu.be/RdZnO_11A9g?si=IEBgzwkp5RY6n53_
+
+<img width="1536" height="1024" alt="Cross-Account IAM Role Access Flow" src="https://github.com/user-attachments/assets/13ad215e-d529-4455-bc8d-f726b4b9623f" />
+
 
 
 
