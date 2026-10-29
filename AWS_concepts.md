@@ -230,6 +230,21 @@ In Lambda, AWS reuses an already running container and directly executes your fu
 
 Result: Much faster.
 
+## Public hosted vs Private hosted zones (in Route 53)
+
+A Public Hosted Zone is used for DNS records that must be accessible from the internet, such as public websites and APIs. 
+
+Example - SBI website
+
+A Private Hosted Zone is associated with one or more VPCs and is used for internal resources like databases, Redis, or microservices. The DNS records in a Private Hosted Zone can only be resolved from within the associated VPC.
+
+Example - SBI internal sites
+
+## Routing Policies in Route53
+
+<img width="614" height="800" alt="image" src="https://github.com/user-attachments/assets/ab69be4c-8ef8-41c7-81d3-ec460a11399d" />
+
+
 
 
 
