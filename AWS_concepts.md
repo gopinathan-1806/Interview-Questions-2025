@@ -187,6 +187,17 @@ https://youtu.be/RdZnO_11A9g?si=IEBgzwkp5RY6n53_
 
 <img width="1536" height="1024" alt="AWS S3 Cross-Region Replication Guide" src="https://github.com/user-attachments/assets/6630b893-498f-41cb-9a8d-5024f46544c8" />
 
+## Step Functions in Lambda 
+
+In AWS, Lambda is used to run a small piece of code, and Step Functions is used to coordinate multiple steps in a workflow.
+
+Think of it like ordering food in a restaurant.
+- AWS Lambda = A worker who performs one task.
+- AWS Step Functions = A manager who decides which task runs first, next, or what happens if a task fails.
+
+<img width="758" height="682" alt="image" src="https://github.com/user-attachments/assets/ec43917f-2700-421e-9c14-0aed2061f560" />
+
+
 
 
 
