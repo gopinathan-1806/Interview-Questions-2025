@@ -580,3 +580,36 @@ HP Singapore - RedHat OCP Admin Engineer - 1st Round - 27 Oct 2026
 15. How to create POD with nonroot user
 16. Pod security standards, and image signing/approval policies
 17. Conduct regular vulnerability assessments (infrastructure and image-level) and remediate findings within SLA
+
+==================================================================================>
+Broadrige -  Senior Devops Engineer - 2nd Round F2F - 28 Oct 2026
+==================================================================================>
+
+1. K8s service mesh
+2. Jew
+3. Transformers in AIML
+4. Todos
+5. LLM fine turning 
+6. What is the meaning of Devops
+7. How will you investigate the critical failure during the weekends
+
+==================================================================================>
+TruGlobal - Senior Devops Engineer - 2nd Round F2F - 28 Oct 2026
+==================================================================================>
+
+1. Public GitHub down
+2. Git fetch vs pull
+3. Git rebase
+4. How will you revert back the changes in k8s
+5. Pipeline is taking 1 hour of time, what you will fix
+6. Base image size is 5.5 GB, how will you reduce that - Multi stage docker
+7. How to attach EBS volume permanently to ec2 
+8. Terraform drift
+9. Triggers available in jenkins 
+10. Pod auto scaling and cluster auto scaling 
+11. Multi stage docker file
+12. Purpose of ingress, what type of ingress you're using
+13. How to schedule your cron job
+14. How you're providing access to the user's for accessing jfrog artifactory
+15. Does the jfrog is self managed or Saas based application 
+16. How to check the list of ports opened in Linux vm 
