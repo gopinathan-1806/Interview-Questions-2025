@@ -197,6 +197,39 @@ Think of it like ordering food in a restaurant.
 
 <img width="758" height="682" alt="image" src="https://github.com/user-attachments/assets/ec43917f-2700-421e-9c14-0aed2061f560" />
 
+## Cold Start vs Warm start in Lambda 
+
+🚕 Cold Start
+
+You call a taxi, but there are no taxis nearby.
+
+So the company has to:
+
+Find a driver
+Start the car
+Reach your location
+
+This takes extra time.
+
+In Lambda, AWS has to:
+
+Create a new container
+Load your code
+Initialize dependencies
+Run the function
+
+Result: First request is slower.
+
+🚕 Warm Start
+
+A taxi is already nearby and waiting.
+
+When you request a ride, it immediately starts the trip.
+
+In Lambda, AWS reuses an already running container and directly executes your function.
+
+Result: Much faster.
+
 
 
 
