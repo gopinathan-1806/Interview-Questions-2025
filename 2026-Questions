@@ -613,3 +613,13 @@ TruGlobal - Senior Devops Engineer - 2nd Round F2F - 28 Oct 2026
 14. How you're providing access to the user's for accessing jfrog artifactory
 15. Does the jfrog is self managed or Saas based application 
 16. How to check the list of ports opened in Linux vm 
+
+==================================================================================>
+AutoDesk - Principal Network Devops Engineer - 1st Round - 29 Oct 2026
+==================================================================================>
+
+1. A critical API used by Firewall and Cloud Management systems starts becoming slow and intermittently fails with 500 errors and timeouts. How would you design a resilient integration layer, what safety mechanisms would you implement, and how would you monitor and recover from failures to ensure reliable policy delivery?
+2. Design a RAG-based Knowledge Agent that integrates with Slack or Teams. The agent should first search internal company knowledge sources for answers and, if the information is unavailable, automatically retrieve relevant content from external vendor knowledge bases (such as FireMon documentation) before generating a response. Explain the architecture, retrieval workflow, security considerations, scalability, and failure-handling mechanisms.
+3. Create a end to end archirtecure for multi agent in AWS.
+
+
