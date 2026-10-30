@@ -669,4 +669,16 @@ Elastic -  AI Engineer - 2nd Round - 30 Oct 2026
 3. Handling an unrealistic or technically risky AI request from a stakeholder and guiding them to a better alternative
 4. Experience with LLM evals and agent observability
 
+==================================================================================>
+Mashreq -  Lead Platform Engineer - 1st Round  - 30 Oct 2026
+==================================================================================>
 
+1. Nemo Guardrails 
+2. LLM OPS
+3. Nvidia Stack
+4. vLLM vs NVIDIA TRT (Tensor RT)
+5. Fix the CICD piline
+6. You are deploying a customer-facing banking chatbot on the GenAI platform. 
+The LLM must never receive raw PII (account numbers, SSN, credit cards, phone, email, names), must refuse jailbreak/policy-violation attempts, 
+and must not leak PII in its responses. Write the NeMo Guardrails config.yml (Colang 2.x) and escribe the flows you would enable. 
+Then explain how you would add a custom recognizer for bank-specific account-number formats.
