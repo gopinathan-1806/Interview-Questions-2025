@@ -622,4 +622,28 @@ AutoDesk - Principal Network Devops Engineer - 1st Round - 29 Oct 2026
 2. Design a RAG-based Knowledge Agent that integrates with Slack or Teams. The agent should first search internal company knowledge sources for answers and, if the information is unavailable, automatically retrieve relevant content from external vendor knowledge bases (such as FireMon documentation) before generating a response. Explain the architecture, retrieval workflow, security considerations, scalability, and failure-handling mechanisms.
 3. Create a end to end archirtecure for multi agent in AWS.
 
+==================================================================================>
+Broadrige -  Senior Devops Engineer - 3rd Round  - 30 Oct 2026
+==================================================================================>
+
+1. How did you handle release management and versioning for your shared Terraform modules?
+2. Did you ever consider using something other than Git for Terraform modules, and what challenges did you face with Git?
+3. How would you design a release process to publish Terraform modules from Git to a private module registry?
+4. How would you design the input and output interface for a custom Terraform module, such as an Amazon Relational Database Service PostgreSQL database, deciding what to hardcode versus what to allow application teams to customize?
+5. How do you design the input and output interface for a new Terraform module when multiple teams have different requirements?
+6. Would you allow teams to choose their own encryption type for an Amazon Relational Database Service database, and what level of customization do you permit there?
+7. How do you update a Terraform module to fix unencrypted Amazon Relational Database Service instances from version one?
+8. How do you safely update an Amazon Relational Database Service instance to add encryption when modifying the Key Management Service key directly causes data loss or replacement?
+9. How do you apply semantic versioning for this breaking change in the Terraform module?
+10. Is changing an encrypted database module considered a major or minor version change?
+11. How do you identify which teams are using a specific version of your Terraform module?
+12.  How do you prevent teams from writing non-compliant Terraform code for databases instead of using the approved secure module?
+13. Can you share a time when an Amazon Web Services service surprised you or failed in an unexpected way in production?
+14. Why would an Amazon S3 operation fail even if the Identity and Access Management role has full S3 permissions (S3 star)?
+15. How do you troubleshoot and debug an Access Denied error in AWS S3?
+16. Have you run into any networking issues with Amazon Elastic Kubernetes Service in your AWS account?
+17. How did you solve the IP exhaustion problem in your Amazon Elastic Kubernetes Service clusters?
+18. How did you handle connectivity between clouds in your multi-cloud setup?
+19. Did you run into any challenges or issues with this complex multi-cloud and site-to-site virtual private network setup?
+
 
