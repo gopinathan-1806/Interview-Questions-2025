@@ -660,5 +660,13 @@ Altimetrik -  AI Engineer - 1st Round  - 30 Oct 2026
 8. LLM token got used highly, how will you investigate and fix it
 9. 
 
+==================================================================================>
+Elastic -  AI Engineer - 2nd Round - 30 Oct 2026
+==================================================================================>
+
+1. How do you decide when to use a multi-agent system versus a simpler deterministic solution?
+2. Designing robust multi-agent workflows to handle edge cases, prevent loops, and fail gracefully
+3. Handling an unrealistic or technically risky AI request from a stakeholder and guiding them to a better alternative
+4. Experience with LLM evals and agent observability
 
 
