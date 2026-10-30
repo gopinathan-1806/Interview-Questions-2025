@@ -646,4 +646,19 @@ Broadrige -  Senior Devops Engineer - 3rd Round  - 30 Oct 2026
 18. How did you handle connectivity between clouds in your multi-cloud setup?
 19. Did you run into any challenges or issues with this complex multi-cloud and site-to-site virtual private network setup?
 
+==================================================================================>
+Altimetrik -  AI Engineer - 1st Round  - 30 Oct 2026
+==================================================================================>
+
+1. Request going to LLM gets timed out and tokens are waster, how to fix this issue.
+2. Diff b/w MCP and A2A
+3. Synorchronous and Asynochronous process in python
+4. I have 5 agents, and final agents is producing the output, how to make sure that the answer is correct or wrong 
+5. Think you have build mini Chat GPT system, where you need to remember the user's old conversation and answer for the new question based on that context, how will you do that 
+6. How agent to agent memory is being stored and transferred to other agents
+7. How will you make sure that you're not exceeding the token budget given for your project
+8. LLM token got used highly, how will you investigate and fix it
+9. 
+
+
 
