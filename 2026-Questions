@@ -682,3 +682,14 @@ Mashreq -  Lead Platform Engineer - 1st Round  - 30 Oct 2026
 The LLM must never receive raw PII (account numbers, SSN, credit cards, phone, email, names), must refuse jailbreak/policy-violation attempts, 
 and must not leak PII in its responses. Write the NeMo Guardrails config.yml (Colang 2.x) and escribe the flows you would enable. 
 Then explain how you would add a custom recognizer for bank-specific account-number formats.
+
+==================================================================================>
+Humancloud Technologies -  Agentic AI Engineer - 1st Round  - 02 Nov 2026
+==================================================================================>
+
+1. If the same document is uploaded again, how would you prevent your ingestion pipeline from processing and storing it multiple times
+2. Preventing duplicate document ingestion in a Retrieval-Augmented Generation pipeline when upstream scripts re-generate identical files.
+3. probably can you talk about if you guys have done a bm25
+4. How would you implement role-based responses, where the same question returns different answers for users like Admin, Manager, and Employee?
+
+
