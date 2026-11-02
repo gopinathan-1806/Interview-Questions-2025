@@ -692,4 +692,18 @@ Humancloud Technologies -  Agentic AI Engineer - 1st Round  - 02 Nov 2026
 3. probably can you talk about if you guys have done a bm25
 4. How would you implement role-based responses, where the same question returns different answers for users like Admin, Manager, and Employee?
 
+==================================================================================>
+Value Labs -  Azure Associote Architect - 1st Round  - 02 Nov 2026
+==================================================================================>
+
+1. What is the general Bicep workflow that you use?
+2. Does Bicep have an inbuilt rollback function for production deployments?
+3. What other security steps can be added to the continuous integration pipeline for a public-facing web application?
+4. What are some of the security best practices you implement for cloud environments?
+5. How do cloud security best practices compare between AWS and Azure?
+6. How do services interact securely in Azure compared to AWS roles?
+7. How do private network connections work between services in Azure compared to AWS?
+8. What is the difference between managed identities and service principals in Azure?
+
+
 
