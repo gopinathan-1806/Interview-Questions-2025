@@ -705,5 +705,22 @@ Value Labs -  Azure Associote Architect - 1st Round  - 02 Nov 2026
 7. How do private network connections work between services in Azure compared to AWS?
 8. What is the difference between managed identities and service principals in Azure?
 
+==================================================================================>
+Wipro -  FDE - 1st Round  - 03 Nov 2026
+==================================================================================>
+
+1. What specific metrics and aspects do you monitor using LangSmith in your AI projects?
+2. How do you architect a multi-agent system, and what key things do you consider?
+3. How do you maintain conversation context in a Retrieval-Augmented Generation system when follow-up questions lack full details? (like you ask one question and next question is related to the first question)
+4. How do you test and validate Retrieval-Augmented Generation system results using evaluations, regression testing, and grounding?
+5. How do you troubleshoot and fix latency or slow performance in a system that uses large language models and Elastic Kubernetes Service?
+6. What do you do if the latency is coming directly from the model provider side?
+7. Experience with vLLM or SGLang for model serving and optimization
+8. Understanding of transformer architecture
+9. Advantages and disadvantages of AWS Bedrock versus Amazon SageMake
+10. Difference between tool calling and function calling in Large Language Models
+11. Architecting a domain-specific small language model for cost, latency, and speed
+12. Handling spot instance interruptions and GPU latency trade-offs (Follow up to above)
+13. How will you trace response latency across the whole system
 
 
