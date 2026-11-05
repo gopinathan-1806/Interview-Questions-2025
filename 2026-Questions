@@ -731,4 +731,14 @@ Godigit -  AI Lead - 1st Round  - 04 Nov 2026
 2. Design a RAG system with security, ACL rules, database choice, vector relationships, and graph integration
 3. How you will be handling the permissions, Documents that should not be seen for the another user.
 4. How you will be validating the agent which is running SQL query on DB.
-5. 
+5. Reranking mechanism you used for your project
+6. If a company wants to build a knowledge base by storing documents from different sources such as cloud storage, code repositories, HR documents, and internal files, how would you design the knowledge base system? Explain your approach.
+7. Invalidation methods / mechanism used in redis
+8. There is a delay will be happening in the LLM side or the Reranking or somewhere it will be happening
+9. How to optimize Redis cache invalidation for partial document updates instead of clearing the entire cache?
+10. LRU caching & TTL (don't prefer for full cache clear
+11. Chunking methods. --> character and structure based
+12. GIL in Python
+13. difference between deep copy and shallow copy in Python?
+14. How would you process a 10,000 documents without overwhelming and an embedding API?
+
