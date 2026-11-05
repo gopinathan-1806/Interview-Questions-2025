@@ -723,4 +723,12 @@ Wipro -  FDE - 1st Round  - 03 Nov 2026
 12. Handling spot instance interruptions and GPU latency trade-offs (Follow up to above)
 13. How will you trace response latency across the whole system
 
+==================================================================================>
+Godigit -  AI Lead - 1st Round  - 04 Nov 2026
+==================================================================================>
 
+1. In the vector DB and how you are, which type of method you use for the. Finding the distance between two distance in the vector db. --> Cosine Similarity, Euclidean Distance:, Dot product 
+2. Design a RAG system with security, ACL rules, database choice, vector relationships, and graph integration
+3. How you will be handling the permissions, Documents that should not be seen for the another user.
+4. How you will be validating the agent which is running SQL query on DB.
+5. 
